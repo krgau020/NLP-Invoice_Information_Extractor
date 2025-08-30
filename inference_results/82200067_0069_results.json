@@ -1,0 +1,1366 @@
+{
+  "image_path": "C:\\Users\\admin\\Desktop\\NLP\\Information-Extraction-System\\dataset\\test_data\\82200067_0069.png",
+  "timestamp": "2025-08-31T00:38:53.224641",
+  "word_level_predictions": [
+    {
+      "word": "09/17/97",
+      "box": [
+        114,
+        78,
+        180,
+        87
+      ],
+      "prediction": "O",
+      "confidence": 0.9795182347297668
+    },
+    {
+      "word": "10:88",
+      "box": [
+        206,
+        79,
+        248,
+        87
+      ],
+      "prediction": "O",
+      "confidence": 0.980985164642334
+    },
+    {
+      "word": "641",
+      "box": [
+        334,
+        80,
+        358,
+        88
+      ],
+      "prediction": "O",
+      "confidence": 0.9784247875213623
+    },
+    {
+      "word": "1898",
+      "box": [
+        367,
+        80,
+        399,
+        88
+      ],
+      "prediction": "O",
+      "confidence": 0.9878772497177124
+    },
+    {
+      "word": "LORTLLARD",
+      "box": [
+        492,
+        81,
+        564,
+        89
+      ],
+      "prediction": "O",
+      "confidence": 0.9767881631851196
+    },
+    {
+      "word": "PTLD",
+      "box": [
+        574,
+        81,
+        607,
+        89
+      ],
+      "prediction": "O",
+      "confidence": 0.9835663437843323
+    },
+    {
+      "word": "Boor",
+      "box": [
+        856,
+        81,
+        895,
+        92
+      ],
+      "prediction": "O",
+      "confidence": 0.9793806672096252
+    },
+    {
+      "word": "To:",
+      "box": [
+        100,
+        142,
+        123,
+        151
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.958580732345581
+    },
+    {
+      "word": "A.",
+      "box": [
+        299,
+        143,
+        331,
+        151
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.8000641465187073
+    },
+    {
+      "word": "Sparraw",
+      "box": [
+        335,
+        143,
+        387,
+        153
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.8643602728843689
+    },
+    {
+      "word": "FROM:",
+      "box": [
+        95,
+        160,
+        143,
+        188
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9712735414505005
+    },
+    {
+      "word": "(ONLY",
+      "box": [
+        102,
+        322,
+        141,
+        332
+      ],
+      "prediction": "O",
+      "confidence": 0.8865211606025696
+    },
+    {
+      "word": "IF",
+      "box": [
+        147,
+        322,
+        157,
+        330
+      ],
+      "prediction": "O",
+      "confidence": 0.923297643661499
+    },
+    {
+      "word": "PARTIAL",
+      "box": [
+        161,
+        322,
+        217,
+        331
+      ],
+      "prediction": "O",
+      "confidence": 0.8653549551963806
+    },
+    {
+      "word": "REGION",
+      "box": [
+        222,
+        323,
+        271,
+        331
+      ],
+      "prediction": "O",
+      "confidence": 0.8978830575942993
+    },
+    {
+      "word": "CONTINUE",
+      "box": [
+        277,
+        322,
+        344,
+        331
+      ],
+      "prediction": "O",
+      "confidence": 0.9095413684844971
+    },
+    {
+      "word": "WITH",
+      "box": [
+        348,
+        323,
+        383,
+        331
+      ],
+      "prediction": "O",
+      "confidence": 0.9167259335517883
+    },
+    {
+      "word": "DIVISIONIS!",
+      "box": [
+        388,
+        322,
+        462,
+        331
+      ],
+      "prediction": "O",
+      "confidence": 0.8512014150619507
+    },
+    {
+      "word": "SCOPE)",
+      "box": [
+        466,
+        322,
+        513,
+        332
+      ],
+      "prediction": "O",
+      "confidence": 0.8670845031738281
+    },
+    {
+      "word": "DIVISION:",
+      "box": [
+        124,
+        378,
+        187,
+        386
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9759746193885803
+    },
+    {
+      "word": "Portland",
+      "box": [
+        205,
+        378,
+        255,
+        387
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.8076560497283936
+    },
+    {
+      "word": "REPS:",
+      "box": [
+        312,
+        378,
+        348,
+        387
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9761127829551697
+    },
+    {
+      "word": "6",
+      "box": [
+        367,
+        378,
+        375,
+        386
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.7385439872741699
+    },
+    {
+      "word": "DIVISION:",
+      "box": [
+        513,
+        378,
+        574,
+        387
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9821220636367798
+    },
+    {
+      "word": "South",
+      "box": [
+        637,
+        368,
+        679,
+        396
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.7517944574356079
+    },
+    {
+      "word": "7",
+      "box": [
+        777,
+        378,
+        785,
+        387
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.6584282517433167
+    },
+    {
+      "word": "DIVISION:",
+      "box": [
+        123,
+        406,
+        187,
+        414
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9820628762245178
+    },
+    {
+      "word": "Boise",
+      "box": [
+        205,
+        406,
+        238,
+        414
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.6057247519493103
+    },
+    {
+      "word": "#",
+      "box": [
+        299,
+        405,
+        307,
+        415
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.25495636463165283
+    },
+    {
+      "word": "REPS:",
+      "box": [
+        312,
+        405,
+        348,
+        415
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9037551879882812
+    },
+    {
+      "word": "2.5",
+      "box": [
+        358,
+        406,
+        377,
+        414
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.8933781981468201
+    },
+    {
+      "word": "DIVISION:",
+      "box": [
+        513,
+        406,
+        574,
+        414
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9755259156227112
+    },
+    {
+      "word": "4",
+      "box": [
+        775,
+        407,
+        785,
+        415
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.7522658705711365
+    },
+    {
+      "word": "DIVISION:",
+      "box": [
+        124,
+        434,
+        187,
+        442
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9738228917121887
+    },
+    {
+      "word": "Eugene",
+      "box": [
+        205,
+        434,
+        250,
+        444
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.4545445144176483
+    },
+    {
+      "word": "REPS:",
+      "box": [
+        299,
+        433,
+        348,
+        442
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9703416228294373
+    },
+    {
+      "word": "5",
+      "box": [
+        358,
+        434,
+        366,
+        442
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.7835515141487122
+    },
+    {
+      "word": "DIVISION:",
+      "box": [
+        513,
+        434,
+        574,
+        442
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9654017090797424
+    },
+    {
+      "word": "Helena",
+      "box": [
+        588,
+        433,
+        629,
+        442
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.665895938873291
+    },
+    {
+      "word": "6",
+      "box": [
+        775,
+        434,
+        785,
+        441
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.579212486743927
+    },
+    {
+      "word": "DIRECT",
+      "box": [
+        140,
+        502,
+        196,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.5846188068389893
+    },
+    {
+      "word": "ACCOUNTS",
+      "box": [
+        201,
+        502,
+        291,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.5578730702400208
+    },
+    {
+      "word": "AND",
+      "box": [
+        297,
+        502,
+        331,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.5480040907859802
+    },
+    {
+      "word": "CHAINS",
+      "box": [
+        338,
+        502,
+        396,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.5697236657142639
+    },
+    {
+      "word": "HEADQUARTERED",
+      "box": [
+        403,
+        502,
+        538,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.7218858599662781
+    },
+    {
+      "word": "WITHIN",
+      "box": [
+        543,
+        502,
+        599,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.7710350751876831
+    },
+    {
+      "word": "THE",
+      "box": [
+        604,
+        502,
+        635,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.6888293027877808
+    },
+    {
+      "word": "REGION",
+      "box": [
+        640,
+        502,
+        700,
+        512
+      ],
+      "prediction": "O",
+      "confidence": 0.8681910037994385
+    },
+    {
+      "word": "(15",
+      "box": [
+        103,
+        516,
+        127,
+        526
+      ],
+      "prediction": "O",
+      "confidence": 0.8936993479728699
+    },
+    {
+      "word": "+",
+      "box": [
+        135,
+        518,
+        145,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.711900532245636
+    },
+    {
+      "word": "STORES)",
+      "box": [
+        155,
+        516,
+        221,
+        526
+      ],
+      "prediction": "O",
+      "confidence": 0.6195094585418701
+    },
+    {
+      "word": "STOCKING",
+      "box": [
+        228,
+        516,
+        309,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.7976966500282288
+    },
+    {
+      "word": "NO",
+      "box": [
+        315,
+        516,
+        338,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.9220321774482727
+    },
+    {
+      "word": "OLD",
+      "box": [
+        344,
+        516,
+        375,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.8918063640594482
+    },
+    {
+      "word": "GOLD",
+      "box": [
+        381,
+        516,
+        424,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.8541132807731628
+    },
+    {
+      "word": "MENTHOL",
+      "box": [
+        429,
+        516,
+        505,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.7548356652259827
+    },
+    {
+      "word": "LIGHTS",
+      "box": [
+        510,
+        516,
+        564,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.8233558535575867
+    },
+    {
+      "word": "OR",
+      "box": [
+        570,
+        516,
+        591,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.8778546452522278
+    },
+    {
+      "word": "ULTRA",
+      "box": [
+        598,
+        516,
+        649,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.8864153623580933
+    },
+    {
+      "word": "LIGHTS",
+      "box": [
+        655,
+        516,
+        710,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.8067552447319031
+    },
+    {
+      "word": "10'S",
+      "box": [
+        717,
+        516,
+        762,
+        525
+      ],
+      "prediction": "O",
+      "confidence": 0.7988677024841309
+    },
+    {
+      "word": "Paget",
+      "box": [
+        736,
+        911,
+        779,
+        923
+      ],
+      "prediction": "O",
+      "confidence": 0.9878886342048645
+    },
+    {
+      "word": "of",
+      "box": [
+        793,
+        911,
+        823,
+        921
+      ],
+      "prediction": "O",
+      "confidence": 0.9871728420257568
+    },
+    {
+      "word": "3",
+      "box": [
+        816,
+        902,
+        820,
+        930
+      ],
+      "prediction": "O",
+      "confidence": 0.9877781271934509
+    },
+    {
+      "word": "Pages",
+      "box": [
+        830,
+        912,
+        871,
+        924
+      ],
+      "prediction": "O",
+      "confidence": 0.990346372127533
+    },
+    {
+      "word": "2900078",
+      "box": [
+        896,
+        779,
+        920,
+        878
+      ],
+      "prediction": "O",
+      "confidence": 0.9890491962432861
+    }
+  ],
+  "entities": [
+    {
+      "type": "QUESTION",
+      "text": "To:",
+      "words": [
+        "To:"
+      ],
+      "boxes": [
+        [
+          75,
+          142,
+          92,
+          151
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          100,
+          142,
+          123,
+          151
+        ]
+      ],
+      "confidence": 0.958580732345581,
+      "start_index": 7,
+      "end_index": 7
+    },
+    {
+      "type": "ANSWER",
+      "text": "A. Sparraw",
+      "words": [
+        "A.",
+        "Sparraw"
+      ],
+      "boxes": [
+        [
+          225,
+          143,
+          249,
+          151
+        ],
+        [
+          252,
+          143,
+          291,
+          153
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          299,
+          143,
+          331,
+          151
+        ],
+        [
+          335,
+          143,
+          387,
+          153
+        ]
+      ],
+      "confidence": 0.8322122097015381,
+      "start_index": 8,
+      "end_index": 9
+    },
+    {
+      "type": "QUESTION",
+      "text": "FROM:",
+      "words": [
+        "FROM:"
+      ],
+      "boxes": [
+        [
+          71,
+          160,
+          107,
+          188
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          95,
+          160,
+          143,
+          188
+        ]
+      ],
+      "confidence": 0.9712735414505005,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "type": "QUESTION",
+      "text": "DIVISION:",
+      "words": [
+        "DIVISION:"
+      ],
+      "boxes": [
+        [
+          93,
+          378,
+          140,
+          386
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          124,
+          378,
+          187,
+          386
+        ]
+      ],
+      "confidence": 0.9759746193885803,
+      "start_index": 19,
+      "end_index": 19
+    },
+    {
+      "type": "ANSWER",
+      "text": "Portland",
+      "words": [
+        "Portland"
+      ],
+      "boxes": [
+        [
+          154,
+          378,
+          192,
+          387
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          205,
+          378,
+          255,
+          387
+        ]
+      ],
+      "confidence": 0.8076560497283936,
+      "start_index": 20,
+      "end_index": 20
+    },
+    {
+      "type": "QUESTION",
+      "text": "REPS:",
+      "words": [
+        "REPS:"
+      ],
+      "boxes": [
+        [
+          235,
+          378,
+          262,
+          387
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          312,
+          378,
+          348,
+          387
+        ]
+      ],
+      "confidence": 0.9761127829551697,
+      "start_index": 21,
+      "end_index": 21
+    },
+    {
+      "type": "ANSWER",
+      "text": "6",
+      "words": [
+        "6"
+      ],
+      "boxes": [
+        [
+          276,
+          378,
+          282,
+          386
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          367,
+          378,
+          375,
+          386
+        ]
+      ],
+      "confidence": 0.7385439872741699,
+      "start_index": 22,
+      "end_index": 22
+    },
+    {
+      "type": "QUESTION",
+      "text": "DIVISION:",
+      "words": [
+        "DIVISION:"
+      ],
+      "boxes": [
+        [
+          386,
+          378,
+          432,
+          387
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          513,
+          378,
+          574,
+          387
+        ]
+      ],
+      "confidence": 0.9821220636367798,
+      "start_index": 23,
+      "end_index": 23
+    },
+    {
+      "type": "ANSWER",
+      "text": "South 7",
+      "words": [
+        "South",
+        "7"
+      ],
+      "boxes": [
+        [
+          480,
+          368,
+          511,
+          396
+        ],
+        [
+          585,
+          378,
+          591,
+          387
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          637,
+          368,
+          679,
+          396
+        ],
+        [
+          777,
+          378,
+          785,
+          387
+        ]
+      ],
+      "confidence": 0.7051113545894623,
+      "start_index": 24,
+      "end_index": 25
+    },
+    {
+      "type": "QUESTION",
+      "text": "DIVISION:",
+      "words": [
+        "DIVISION:"
+      ],
+      "boxes": [
+        [
+          92,
+          406,
+          140,
+          414
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          123,
+          406,
+          187,
+          414
+        ]
+      ],
+      "confidence": 0.9820628762245178,
+      "start_index": 26,
+      "end_index": 26
+    },
+    {
+      "type": "ANSWER",
+      "text": "Boise",
+      "words": [
+        "Boise"
+      ],
+      "boxes": [
+        [
+          154,
+          406,
+          179,
+          414
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          205,
+          406,
+          238,
+          414
+        ]
+      ],
+      "confidence": 0.6057247519493103,
+      "start_index": 27,
+      "end_index": 27
+    },
+    {
+      "type": "QUESTION",
+      "text": "#",
+      "words": [
+        "#"
+      ],
+      "boxes": [
+        [
+          225,
+          405,
+          231,
+          415
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          299,
+          405,
+          307,
+          415
+        ]
+      ],
+      "confidence": 0.25495636463165283,
+      "start_index": 28,
+      "end_index": 28
+    },
+    {
+      "type": "QUESTION",
+      "text": "REPS:",
+      "words": [
+        "REPS:"
+      ],
+      "boxes": [
+        [
+          235,
+          405,
+          262,
+          415
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          312,
+          405,
+          348,
+          415
+        ]
+      ],
+      "confidence": 0.9037551879882812,
+      "start_index": 29,
+      "end_index": 29
+    },
+    {
+      "type": "ANSWER",
+      "text": "2.5",
+      "words": [
+        "2.5"
+      ],
+      "boxes": [
+        [
+          269,
+          406,
+          284,
+          414
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          358,
+          406,
+          377,
+          414
+        ]
+      ],
+      "confidence": 0.8933781981468201,
+      "start_index": 30,
+      "end_index": 30
+    },
+    {
+      "type": "QUESTION",
+      "text": "DIVISION:",
+      "words": [
+        "DIVISION:"
+      ],
+      "boxes": [
+        [
+          386,
+          406,
+          432,
+          414
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          513,
+          406,
+          574,
+          414
+        ]
+      ],
+      "confidence": 0.9755259156227112,
+      "start_index": 31,
+      "end_index": 31
+    },
+    {
+      "type": "ANSWER",
+      "text": "4",
+      "words": [
+        "4"
+      ],
+      "boxes": [
+        [
+          584,
+          407,
+          591,
+          415
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          775,
+          407,
+          785,
+          415
+        ]
+      ],
+      "confidence": 0.7522658705711365,
+      "start_index": 32,
+      "end_index": 32
+    },
+    {
+      "type": "QUESTION",
+      "text": "DIVISION:",
+      "words": [
+        "DIVISION:"
+      ],
+      "boxes": [
+        [
+          93,
+          434,
+          140,
+          442
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          124,
+          434,
+          187,
+          442
+        ]
+      ],
+      "confidence": 0.9738228917121887,
+      "start_index": 33,
+      "end_index": 33
+    },
+    {
+      "type": "ANSWER",
+      "text": "Eugene",
+      "words": [
+        "Eugene"
+      ],
+      "boxes": [
+        [
+          154,
+          434,
+          188,
+          444
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          205,
+          434,
+          250,
+          444
+        ]
+      ],
+      "confidence": 0.4545445144176483,
+      "start_index": 34,
+      "end_index": 34
+    },
+    {
+      "type": "QUESTION",
+      "text": "REPS:",
+      "words": [
+        "REPS:"
+      ],
+      "boxes": [
+        [
+          225,
+          433,
+          262,
+          442
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          299,
+          433,
+          348,
+          442
+        ]
+      ],
+      "confidence": 0.9703416228294373,
+      "start_index": 35,
+      "end_index": 35
+    },
+    {
+      "type": "ANSWER",
+      "text": "5",
+      "words": [
+        "5"
+      ],
+      "boxes": [
+        [
+          269,
+          434,
+          275,
+          442
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          358,
+          434,
+          366,
+          442
+        ]
+      ],
+      "confidence": 0.7835515141487122,
+      "start_index": 36,
+      "end_index": 36
+    },
+    {
+      "type": "QUESTION",
+      "text": "DIVISION:",
+      "words": [
+        "DIVISION:"
+      ],
+      "boxes": [
+        [
+          386,
+          434,
+          432,
+          442
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          513,
+          434,
+          574,
+          442
+        ]
+      ],
+      "confidence": 0.9654017090797424,
+      "start_index": 37,
+      "end_index": 37
+    },
+    {
+      "type": "ANSWER",
+      "text": "Helena",
+      "words": [
+        "Helena"
+      ],
+      "boxes": [
+        [
+          443,
+          433,
+          474,
+          442
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          588,
+          433,
+          629,
+          442
+        ]
+      ],
+      "confidence": 0.665895938873291,
+      "start_index": 38,
+      "end_index": 38
+    },
+    {
+      "type": "ANSWER",
+      "text": "6",
+      "words": [
+        "6"
+      ],
+      "boxes": [
+        [
+          584,
+          434,
+          591,
+          441
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          775,
+          434,
+          785,
+          441
+        ]
+      ],
+      "confidence": 0.579212486743927,
+      "start_index": 39,
+      "end_index": 39
+    }
+  ],
+  "summary": {
+    "total_words": 66,
+    "total_entities": 23,
+    "entity_counts": {
+      "QUESTION": 12,
+      "ANSWER": 11
+    }
+  }
+}

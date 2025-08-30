@@ -1,0 +1,425 @@
+pytesseract → Python wrapper for Tesseract OCR
+
+Pillow → Image handling
+
+opencv-python → For image preprocessing if needed
+
+
+
+
+
+
+### USING tesseract 
+
+Tesseract --> Tesseract is an open-source OCR engine — it extracts text from images.
+In short: It turns pictures of text into editable text.
+
+
+install it --> in termianl put the path of exe and it will install 
+
+then -->
+& "C:\Program Files\Tesseract-OCR\tesseract.exe" --version
+
+
+use this path in code --> if this is not takiing directly 
+
+
+
+
+
+
+
+#### DATA SET
+
+👉 FUNSD Dataset Page
+
+Direct zip:
+
+https://guillaumejaume.github.io/FUNSD/dataset.zip
+
+
+
+
+
+
+
+
+
+####
+✅ 1️⃣ transformers
+
+Provides state-of-the-art pre-trained NLP models (like BERT, GPT).
+Used for tasks like text classification, question answering, summarization.
+
+✅ 2️⃣ datasets
+
+Easy access to thousands of NLP datasets and evaluation metrics.
+Used to load, process, and share data for training/testing models.
+
+✅ 3️⃣ seqeval
+
+A Python library to evaluate sequence labeling tasks (like NER, POS).
+Computes metrics like precision, recall, F1 for token classification.
+
+
+
+
+✅ NER (Named Entity Recognition)
+
+Find and label names in text — like people, places, organizations, dates.
+Example: “Apple Inc. is based in California.” → Apple Inc. = ORG, California = LOC
+
+✅ POS (Part-of-Speech Tagging)
+
+Label each word with its grammatical role — noun, verb, adjective, etc.
+Example: “She eats apples.” → She = Pronoun, eats = Verb, apples = Noun
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### MODELLL
+
+✅ LayoutLM
+
+A special NLP model for document understanding — it reads text + layout together.
+It combines text, position, and visual layout (like forms, receipts, invoices).
+
+
+📄 Example:
+
+Normal BERT → just text: “Name: John Doe”
+
+LayoutLM → knows where “Name:” is on the page, so it can extract key fields properly.
+
+
+👉 Use case:
+
+Key information extraction (KIE)
+
+Form parsing (like FUNSD dataset)
+
+Invoices, receipts, ID cards
+
+
+
+##  ✅ Understand the mapping for LayoutLM
+Key point:
+LayoutLM wants:
+
+input_ids — word pieces, like BERT
+
+bbox — for each token, normalized box
+
+labels — for each token, BIO tag (B-ANSWER, I-ANSWER, etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### DATA SET UNDERSTANDING
+
+✅ Define your labels
+
+FUNSD uses:
+
+header
+question
+answer
+other
+
+
+
+Use BIO:
+
+B-ANSWER, I-ANSWER
+
+B-QUESTION, I-QUESTION
+
+etc.
+
+So your label list is:
+
+
+labels = ["O", "B-HEADER", "I-HEADER", "B-QUESTION", "I-QUESTION", "B-ANSWER", "I-ANSWER"]
+
+
+
+
+
+
+
+
+
+
+
+#####   UNDERSTANDING BIO SCHEME
+
+📌 What is the BIO scheme?
+BIO = Beginning, Inside, Outside
+
+It’s a way to tag each token in a sentence so a model can learn where named entities start and end.
+
+B- → Beginning of an entity
+
+I- → Inside the entity
+
+O → Outside any entity
+
+
+
+📎 Example
+Say you have this text:
+
+"Invoice Number: 12345"
+Imagine you want to extract Invoice Number as a HEADER and 12345 as an ANSWER.
+
+You’d tag:
+
+"Invoice" → B-HEADER  
+"Number:" → I-HEADER  
+"12345" → B-ANSWER
+
+
+
+
+
+✅ So the model learns:
+
+What is the start of an entity?
+
+How to extend the entity span?
+
+What is not an entity?
+
+
+
+📌 Why is BIO needed?
+Because token classification happens token-by-token.
+The model only “sees” one token at a time → so you must encode the entity structure in the labels.
+
+🧩 So your label list for FUNSD
+
+FUNSD blocks are:
+
+header → like “Invoice”
+
+question → “Date:”
+
+answer → “12/12/2022”
+
+other → filler or noise → ignore or mark as O
+
+
+
+So you define possible tags:
+
+labels = [
+    "O",            # Outside any block of interest
+    "B-HEADER",     # Start of header
+    "I-HEADER",     # Inside header
+    "B-QUESTION",   # Start of question block
+    "I-QUESTION",   # Inside question block
+    "B-ANSWER",     # Start of answer block
+    "I-ANSWER",     # Inside answer block
+]
+
+
+
+
+
+
+
+
+✅ Why use “I-” if many are 1-word?
+
+Sometimes blocks are multi-word:
+
+"Bill To:" → could be:
+
+B-QUESTION: "Bill"
+I-QUESTION: "To:"
+
+So BIO covers single-word and multi-word entities.
+
+
+📌 How the model uses this--
+
+During training:
+It learns from these tags.
+
+During inference:
+It predicts a label for each token → you re-combine:
+
+B-ANSWER + I-ANSWER → ANSWER
+
+
+
+✔️ Bottom line
+BIO = Standard way for training models like LayoutLM for tasks like:
+
+Named Entity Recognition (NER)
+
+Key Information Extraction
+
+Token-level classification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#####   TYPE OF TOKENIZATION
+
+
+👇
+
+📌 1️⃣ Whitespace tokenization
+Split text simply by spaces ("I love NLP" → ["I", "love", "NLP"]).
+
+Very basic — doesn’t handle punctuation well.
+
+📌 2️⃣ Rule-based / Regex tokenization
+Uses hand-crafted rules for splitting: spaces, punctuation, numbers.
+
+Example: "John's book." → ["John", "'s", "book", "."].
+
+📌 3️⃣ Word-level tokenization
+Splits text into known words from a vocabulary.
+
+Assumes each word is whole — can’t handle unseen/rare words well.
+
+📌 4️⃣ Subword tokenization (WordPiece, BPE, Unigram LM)
+Splits words into subword units → handles rare/unknown words.
+
+Examples: WordPiece (BERT), BPE (GPT-2), Unigram LM (SentencePiece for T5).
+
+📌 5️⃣ Character-level tokenization
+Splits text into individual characters.
+
+Example: "cat" → ["c", "a", "t"] — used in some language models for morphology.
+
+📌 6️⃣ Byte-Pair Encoding (BPE)
+Popular subword method: merges frequent pairs of characters to build subword vocab.
+
+Example: "lower" → ["low", "er"].
+
+📌 7️⃣ Sentence-level tokenization
+Splits text into sentences.
+
+Example: "Hi! How are you?" → ["Hi!", "How are you?"].
+
+📌 8️⃣ Tokenizer with vocabulary mapping
+Like WordPiece or BPE but with a vocab dict → each subword has a unique ID.
+
+Example: ["un", "##happiness"] → [1034, 29587].
+
+✅ Key point:
+Modern LLMs almost always use subword tokenization → WordPiece, BPE, or Unigram LM.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### do we need images for training
+
+When training LayoutLM on FUNSD, you only need the JSON files — not the actual images — because:
+
+📌 Why the image is not used during training
+LayoutLM v1 does not use the raw image pixels.
+
+It uses:
+1️⃣ The words (text)
+2️⃣ The bounding boxes (layout/position info)
+
+These bounding boxes are extracted from the image beforehand (FUNSD already provides them in the JSON).
+
+So the model only sees text + normalized coordinates — no pixels.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#############
+STEPS--
+
+'''
+Build LayoutLM-ready tokenized dataset
+Goal:
+Turn:
+
+words (text chunks)
+
+bounding boxes
+
+labels
+
+👉 Into token-level inputs for LayoutLMForTokenClassification.'''

@@ -1,0 +1,4779 @@
+{
+  "image_path": "C:\\Users\\admin\\Desktop\\NLP\\Information-Extraction-System\\dataset\\test_data\\82250337_0338.png",
+  "timestamp": "2025-08-31T00:39:00.061753",
+  "word_level_predictions": [
+    {
+      "word": "COMPETITIVE",
+      "box": [
+        294,
+        139,
+        421,
+        150
+      ],
+      "prediction": "B-HEADER",
+      "confidence": 0.9342909455299377
+    },
+    {
+      "word": "PRODUCT",
+      "box": [
+        428,
+        139,
+        519,
+        149
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9779922366142273
+    },
+    {
+      "word": "INTRODUCTION",
+      "box": [
+        526,
+        138,
+        669,
+        149
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9806017875671387
+    },
+    {
+      "word": "PROGRESS",
+      "box": [
+        380,
+        147,
+        490,
+        181
+      ],
+      "prediction": "B-HEADER",
+      "confidence": 0.5619365572929382
+    },
+    {
+      "word": "REPORT",
+      "box": [
+        503,
+        147,
+        583,
+        181
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9784634709358215
+    },
+    {
+      "word": "To:",
+      "box": [
+        124,
+        204,
+        148,
+        213
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9698165655136108
+    },
+    {
+      "word": "SamZolot",
+      "box": [
+        187,
+        204,
+        255,
+        212
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9248668551445007
+    },
+    {
+      "word": "MANUFACTURER:",
+      "box": [
+        417,
+        202,
+        539,
+        211
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9782342314720154
+    },
+    {
+      "word": "FROM:",
+      "box": [
+        125,
+        222,
+        169,
+        230
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9820413589477539
+    },
+    {
+      "word": "Lando",
+      "box": [
+        221,
+        221,
+        263,
+        230
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9412455558776855
+    },
+    {
+      "word": "BRAND:",
+      "box": [
+        417,
+        220,
+        470,
+        228
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9789942502975464
+    },
+    {
+      "word": "DATE:",
+      "box": [
+        125,
+        239,
+        167,
+        247
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9812163710594177
+    },
+    {
+      "word": "TYPE",
+      "box": [
+        416,
+        236,
+        558,
+        245
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9374644160270691
+    },
+    {
+      "word": "OF",
+      "box": [
+        456,
+        222,
+        478,
+        256
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.884041965007782
+    },
+    {
+      "word": "PACKINGS:",
+      "box": [
+        485,
+        236,
+        558,
+        245
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8696147203445435
+    },
+    {
+      "word": "Al",
+      "box": [
+        599,
+        236,
+        614,
+        244
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9559900164604187
+    },
+    {
+      "word": "REPORTING",
+      "box": [
+        125,
+        259,
+        208,
+        293
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.5640207529067993
+    },
+    {
+      "word": "PERIODS:",
+      "box": [
+        214,
+        259,
+        281,
+        293
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.6203453540802002
+    },
+    {
+      "word": "oot",
+      "box": [
+        371,
+        258,
+        396,
+        292
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9620240330696106
+    },
+    {
+      "word": "Now",
+      "box": [
+        490,
+        271,
+        519,
+        279
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.8777252435684204
+    },
+    {
+      "word": "Jan.",
+      "box": [
+        736,
+        270,
+        763,
+        278
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9083255529403687
+    },
+    {
+      "word": "‘TEST",
+      "box": [
+        119,
+        313,
+        161,
+        343
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.8381559252738953
+    },
+    {
+      "word": "MARKET",
+      "box": [
+        172,
+        313,
+        225,
+        343
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7784463763237
+    },
+    {
+      "word": "GEOGRAPHY:",
+      "box": [
+        234,
+        313,
+        326,
+        343
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8434323072433472
+    },
+    {
+      "word": "PRICE",
+      "box": [
+        125,
+        344,
+        168,
+        378
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9759854078292847
+    },
+    {
+      "word": "POINT:",
+      "box": [
+        172,
+        344,
+        226,
+        378
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.9434147477149963
+    },
+    {
+      "word": "FULLS",
+      "box": [
+        241,
+        359,
+        289,
+        367
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9154582023620605
+    },
+    {
+      "word": "_PIVS",
+      "box": [
+        340,
+        358,
+        375,
+        367
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.7688093781471252
+    },
+    {
+      "word": "(indicat",
+      "box": [
+        423,
+        344,
+        478,
+        378
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.40905141830444336
+    },
+    {
+      "word": "Cost",
+      "box": [
+        574,
+        344,
+        606,
+        378
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.6701999306678772
+    },
+    {
+      "word": "Per",
+      "box": [
+        612,
+        344,
+        632,
+        378
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7840494513511658
+    },
+    {
+      "word": "Caron)",
+      "box": [
+        639,
+        344,
+        688,
+        378
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8006500005722046
+    },
+    {
+      "word": "SALES",
+      "box": [
+        125,
+        398,
+        172,
+        406
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.8253929615020752
+    },
+    {
+      "word": "FORCE",
+      "box": [
+        177,
+        397,
+        225,
+        406
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7343956828117371
+    },
+    {
+      "word": "INVOLVEME?",
+      "box": [
+        230,
+        397,
+        312,
+        405
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7431800961494446
+    },
+    {
+      "word": "They",
+      "box": [
+        125,
+        419,
+        156,
+        430
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.5446868538856506
+    },
+    {
+      "word": "have",
+      "box": [
+        161,
+        419,
+        192,
+        427
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9848427772521973
+    },
+    {
+      "word": "ctew-worked",
+      "box": [
+        197,
+        407,
+        275,
+        435
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9839208126068115
+    },
+    {
+      "word": "distribution,",
+      "box": [
+        281,
+        407,
+        354,
+        435
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.987606942653656
+    },
+    {
+      "word": "and",
+      "box": [
+        358,
+        417,
+        381,
+        426
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9875078797340393
+    },
+    {
+      "word": "itis",
+      "box": [
+        387,
+        418,
+        407,
+        426
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9818220138549805
+    },
+    {
+      "word": "reported",
+      "box": [
+        412,
+        417,
+        464,
+        428
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9825121164321899
+    },
+    {
+      "word": "that",
+      "box": [
+        468,
+        417,
+        492,
+        426
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9860965609550476
+    },
+    {
+      "word": "they",
+      "box": [
+        496,
+        417,
+        514,
+        425
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9852557182312012
+    },
+    {
+      "word": "may",
+      "box": [
+        530,
+        419,
+        553,
+        429
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9834340810775757
+    },
+    {
+      "word": "crew-workit",
+      "box": [
+        557,
+        416,
+        632,
+        425
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9778962135314941
+    },
+    {
+      "word": "again.",
+      "box": [
+        637,
+        416,
+        672,
+        428
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.987761378288269
+    },
+    {
+      "word": "Sales",
+      "box": [
+        684,
+        416,
+        718,
+        424
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.5466838479042053
+    },
+    {
+      "word": "force",
+      "box": [
+        722,
+        407,
+        755,
+        435
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9809914231300354
+    },
+    {
+      "word": "has",
+      "box": [
+        759,
+        415,
+        782,
+        424
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9875671863555908
+    },
+    {
+      "word": "been",
+      "box": [
+        787,
+        415,
+        818,
+        424
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9864928126335144
+    },
+    {
+      "word": "busy",
+      "box": [
+        823,
+        415,
+        852,
+        426
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9874961376190186
+    },
+    {
+      "word": "promoting",
+      "box": [
+        125,
+        441,
+        188,
+        451
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9847524762153625
+    },
+    {
+      "word": "old",
+      "box": [
+        193,
+        441,
+        210,
+        449
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.985678493976593
+    },
+    {
+      "word": "style",
+      "box": [
+        216,
+        440,
+        245,
+        451
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9888368844985962
+    },
+    {
+      "word": "packs",
+      "box": [
+        250,
+        440,
+        286,
+        451
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.988189697265625
+    },
+    {
+      "word": "to",
+      "box": [
+        291,
+        441,
+        302,
+        448
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9881457090377808
+    },
+    {
+      "word": "clean",
+      "box": [
+        307,
+        440,
+        340,
+        448
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9887276887893677
+    },
+    {
+      "word": "up",
+      "box": [
+        346,
+        442,
+        360,
+        450
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9894854426383972
+    },
+    {
+      "word": "inventory.",
+      "box": [
+        366,
+        439,
+        423,
+        450
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9895842671394348
+    },
+    {
+      "word": "All",
+      "box": [
+        435,
+        439,
+        449,
+        447
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.954164981842041
+    },
+    {
+      "word": "POS",
+      "box": [
+        454,
+        439,
+        482,
+        447
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9857083559036255
+    },
+    {
+      "word": "is",
+      "box": [
+        488,
+        441,
+        498,
+        447
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9872044324874878
+    },
+    {
+      "word": "being",
+      "box": [
+        502,
+        439,
+        537,
+        449
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9891974329948425
+    },
+    {
+      "word": "converted",
+      "box": [
+        541,
+        438,
+        603,
+        447
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9870295524597168
+    },
+    {
+      "word": "to",
+      "box": [
+        607,
+        439,
+        619,
+        446
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9884568452835083
+    },
+    {
+      "word": "\"B*",
+      "box": [
+        623,
+        438,
+        641,
+        446
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.985880970954895
+    },
+    {
+      "word": "Kool",
+      "box": [
+        647,
+        438,
+        675,
+        446
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9910162687301636
+    },
+    {
+      "word": "DISTRIBUTORS",
+      "box": [
+        125,
+        504,
+        232,
+        513
+      ],
+      "prediction": "B-HEADER",
+      "confidence": 0.7225343585014343
+    },
+    {
+      "word": "-",
+      "box": [
+        236,
+        509,
+        241,
+        511
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.47519344091415405
+    },
+    {
+      "word": "ACCEPTANCEMNTRO",
+      "box": [
+        245,
+        503,
+        391,
+        513
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.5017408132553101
+    },
+    {
+      "word": "TERMS/INTRO",
+      "box": [
+        395,
+        503,
+        492,
+        512
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7549762725830078
+    },
+    {
+      "word": "DEALS/INVOLVEMENT:",
+      "box": [
+        497,
+        502,
+        653,
+        511
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8745197057723999
+    },
+    {
+      "word": "‘Allaccounts",
+      "box": [
+        124,
+        526,
+        261,
+        535
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.388689786195755
+    },
+    {
+      "word": "have",
+      "box": [
+        208,
+        514,
+        234,
+        542
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9698548316955566
+    },
+    {
+      "word": "the",
+      "box": [
+        242,
+        514,
+        262,
+        542
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.983890950679779
+    },
+    {
+      "word": "new",
+      "box": [
+        266,
+        528,
+        291,
+        534
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9842145442962646
+    },
+    {
+      "word": "packaging.",
+      "box": [
+        297,
+        525,
+        360,
+        536
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9806744456291199
+    },
+    {
+      "word": "Itwas",
+      "box": [
+        374,
+        524,
+        500,
+        534
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9213308691978455
+    },
+    {
+      "word": "not",
+      "box": [
+        416,
+        514,
+        432,
+        542
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9738198518753052
+    },
+    {
+      "word": "a",
+      "box": [
+        440,
+        514,
+        444,
+        542
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9773892164230347
+    },
+    {
+      "word": "problem",
+      "box": [
+        449,
+        524,
+        497,
+        534
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9644922018051147
+    },
+    {
+      "word": "obtaining",
+      "box": [
+        505,
+        524,
+        561,
+        534
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9766523838043213
+    },
+    {
+      "word": "new",
+      "box": [
+        566,
+        526,
+        591,
+        532
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9838916659355164
+    },
+    {
+      "word": "distribution.",
+      "box": [
+        596,
+        524,
+        664,
+        532
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9871197938919067
+    },
+    {
+      "word": "All",
+      "box": [
+        677,
+        523,
+        692,
+        531
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.983511209487915
+    },
+    {
+      "word": "accounts",
+      "box": [
+        700,
+        514,
+        754,
+        542
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9875093102455139
+    },
+    {
+      "word": "appear",
+      "box": [
+        762,
+        514,
+        803,
+        542
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9804195761680603
+    },
+    {
+      "word": "to",
+      "box": [
+        125,
+        549,
+        136,
+        556
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9875026345252991
+    },
+    {
+      "word": "have",
+      "box": [
+        141,
+        548,
+        172,
+        556
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9843286275863647
+    },
+    {
+      "word": "100%",
+      "box": [
+        177,
+        548,
+        212,
+        556
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9883638620376587
+    },
+    {
+      "word": "distribution",
+      "box": [
+        217,
+        547,
+        392,
+        559
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.986792802810669
+    },
+    {
+      "word": "of",
+      "box": [
+        290,
+        537,
+        303,
+        565
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.987677276134491
+    },
+    {
+      "word": "new",
+      "box": [
+        311,
+        537,
+        331,
+        565
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9882786273956299
+    },
+    {
+      "word": "packings.",
+      "box": [
+        336,
+        547,
+        392,
+        559
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9860004782676697
+    },
+    {
+      "word": "CHAINS",
+      "box": [
+        125,
+        613,
+        179,
+        621
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.8594732880592346
+    },
+    {
+      "word": "-",
+      "box": [
+        184,
+        617,
+        188,
+        619
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8331792950630188
+    },
+    {
+      "word": "ACCEPTANCE/MERCHANDISING:",
+      "box": [
+        192,
+        611,
+        419,
+        621
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8532109260559082
+    },
+    {
+      "word": "‘This",
+      "box": [
+        120,
+        623,
+        152,
+        651
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.5177194476127625
+    },
+    {
+      "word": "has",
+      "box": [
+        157,
+        623,
+        180,
+        651
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9717735648155212
+    },
+    {
+      "word": "not",
+      "box": [
+        184,
+        635,
+        204,
+        643
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9601395726203918
+    },
+    {
+      "word": "been",
+      "box": [
+        208,
+        635,
+        238,
+        642
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.951265811920166
+    },
+    {
+      "word": "a",
+      "box": [
+        244,
+        636,
+        250,
+        642
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9510622620582581
+    },
+    {
+      "word": "problem.",
+      "box": [
+        255,
+        634,
+        310,
+        644
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9592966437339783
+    },
+    {
+      "word": "New",
+      "box": [
+        319,
+        633,
+        347,
+        642
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.8207932710647583
+    },
+    {
+      "word": "packaging",
+      "box": [
+        352,
+        633,
+        429,
+        645
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9824712872505188
+    },
+    {
+      "word": "is",
+      "box": [
+        420,
+        623,
+        431,
+        651
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9845089316368103
+    },
+    {
+      "word": "just",
+      "box": [
+        433,
+        633,
+        456,
+        643
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9857609868049622
+    },
+    {
+      "word": "following",
+      "box": [
+        460,
+        632,
+        514,
+        645
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9842275977134705
+    },
+    {
+      "word": "up",
+      "box": [
+        522,
+        634,
+        535,
+        644
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9873474836349487
+    },
+    {
+      "word": "on",
+      "box": [
+        541,
+        623,
+        554,
+        651
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9875887036323547
+    },
+    {
+      "word": "the",
+      "box": [
+        559,
+        623,
+        575,
+        651
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9889393448829651
+    },
+    {
+      "word": "old",
+      "box": [
+        583,
+        632,
+        600,
+        640
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9867671132087708
+    },
+    {
+      "word": "INDEPENDENTS",
+      "box": [
+        125,
+        720,
+        236,
+        729
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.7586565017700195
+    },
+    {
+      "word": "-",
+      "box": [
+        241,
+        724,
+        246,
+        726
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7891265153884888
+    },
+    {
+      "word": "ACCEPTANCE/MERCHANDISING:",
+      "box": [
+        249,
+        718,
+        476,
+        728
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8422060608863831
+    },
+    {
+      "word": "Very",
+      "box": [
+        125,
+        742,
+        155,
+        753
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.7556018829345703
+    },
+    {
+      "word": "well",
+      "box": [
+        159,
+        742,
+        183,
+        751
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.8961304426193237
+    },
+    {
+      "word": "received.",
+      "box": [
+        188,
+        742,
+        241,
+        750
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9689637422561646
+    },
+    {
+      "word": "The",
+      "box": [
+        253,
+        742,
+        278,
+        750
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.8632887601852417
+    },
+    {
+      "word": "old",
+      "box": [
+        282,
+        741,
+        301,
+        750
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9788352251052856
+    },
+    {
+      "word": "packs",
+      "box": [
+        306,
+        741,
+        342,
+        752
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9818784594535828
+    },
+    {
+      "word": "are",
+      "box": [
+        347,
+        743,
+        367,
+        749
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9852966666221619
+    },
+    {
+      "word": "boing",
+      "box": [
+        372,
+        741,
+        405,
+        751
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9814558029174805
+    },
+    {
+      "word": "consolidated",
+      "box": [
+        411,
+        740,
+        489,
+        749
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9878078103065491
+    },
+    {
+      "word": "and",
+      "box": [
+        494,
+        740,
+        517,
+        748
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9910098314285278
+    },
+    {
+      "word": "promoted",
+      "box": [
+        517,
+        739,
+        580,
+        751
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9894601106643677
+    },
+    {
+      "word": "in",
+      "box": [
+        586,
+        742,
+        596,
+        748
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9886628985404968
+    },
+    {
+      "word": "select",
+      "box": [
+        600,
+        739,
+        637,
+        748
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9900985360145569
+    },
+    {
+      "word": "retail",
+      "box": [
+        643,
+        739,
+        672,
+        747
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9912091493606567
+    },
+    {
+      "word": "at",
+      "box": [
+        738,
+        739,
+        749,
+        747
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9875351190567017
+    },
+    {
+      "word": "40¢",
+      "box": [
+        753,
+        738,
+        777,
+        749
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.987727165222168
+    },
+    {
+      "word": "off",
+      "box": [
+        185,
+        753,
+        201,
+        781
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9891718029975891
+    },
+    {
+      "word": "cartons.",
+      "box": [
+        205,
+        763,
+        251,
+        772
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9913046360015869
+    },
+    {
+      "word": "ADVERTISING",
+      "box": [
+        125,
+        828,
+        222,
+        837
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.6890265345573425
+    },
+    {
+      "word": "-",
+      "box": [
+        228,
+        832,
+        232,
+        834
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.527856707572937
+    },
+    {
+      "word": "EFFECTIVENESS",
+      "box": [
+        237,
+        827,
+        352,
+        836
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.6649399399757385
+    },
+    {
+      "word": "OF",
+      "box": [
+        356,
+        827,
+        376,
+        835
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.6614798903465271
+    },
+    {
+      "word": "P.0.S.:",
+      "box": [
+        380,
+        826,
+        425,
+        835
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8196665048599243
+    },
+    {
+      "word": "“The",
+      "box": [
+        125,
+        850,
+        149,
+        858
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.4720574915409088
+    },
+    {
+      "word": "theme",
+      "box": [
+        155,
+        849,
+        202,
+        858
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9522250890731812
+    },
+    {
+      "word": "\"B*",
+      "box": [
+        200,
+        838,
+        217,
+        866
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9624098539352417
+    },
+    {
+      "word": "Koo!",
+      "box": [
+        222,
+        849,
+        250,
+        857
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9881048202514648
+    },
+    {
+      "word": "has",
+      "box": [
+        255,
+        849,
+        278,
+        857
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9894129633903503
+    },
+    {
+      "word": "replaced",
+      "box": [
+        282,
+        849,
+        336,
+        859
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.987758219242096
+    },
+    {
+      "word": "all",
+      "box": [
+        340,
+        849,
+        355,
+        857
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9882966876029968
+    },
+    {
+      "word": "previous",
+      "box": [
+        359,
+        850,
+        412,
+        858
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9861115217208862
+    },
+    {
+      "word": "POS.",
+      "box": [
+        417,
+        848,
+        446,
+        856
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9869681000709534
+    },
+    {
+      "word": "They",
+      "box": [
+        458,
+        848,
+        474,
+        856
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9769708514213562
+    },
+    {
+      "word": "have",
+      "box": [
+        494,
+        848,
+        523,
+        856
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9882679581642151
+    },
+    {
+      "word": "effectively",
+      "box": [
+        529,
+        847,
+        591,
+        857
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9880474805831909
+    },
+    {
+      "word": "replaced",
+      "box": [
+        596,
+        847,
+        651,
+        857
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9895999431610107
+    },
+    {
+      "word": "al",
+      "box": [
+        655,
+        846,
+        668,
+        855
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9722436666488647
+    },
+    {
+      "word": "old",
+      "box": [
+        673,
+        846,
+        692,
+        855
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9884231686592102
+    },
+    {
+      "word": "POS.",
+      "box": [
+        697,
+        846,
+        725,
+        854
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.988109290599823
+    },
+    {
+      "word": "New",
+      "box": [
+        738,
+        846,
+        766,
+        854
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9275966286659241
+    },
+    {
+      "word": "‘door",
+      "box": [
+        125,
+        871,
+        155,
+        880
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.81385338306427
+    },
+    {
+      "word": "signage,",
+      "box": [
+        159,
+        873,
+        212,
+        883
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9833295941352844
+    },
+    {
+      "word": "hour",
+      "box": [
+        217,
+        871,
+        246,
+        879
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9696774482727051
+    },
+    {
+      "word": "signs.",
+      "box": [
+        250,
+        872,
+        286,
+        882
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9833327531814575
+    },
+    {
+      "word": "poster",
+      "box": [
+        291,
+        871,
+        331,
+        880
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9706922769546509
+    },
+    {
+      "word": "mats,",
+      "box": [
+        335,
+        870,
+        368,
+        879
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9839203953742981
+    },
+    {
+      "word": "and",
+      "box": [
+        374,
+        870,
+        396,
+        878
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9891306161880493
+    },
+    {
+      "word": "clocks",
+      "box": [
+        401,
+        870,
+        440,
+        878
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9818910956382751
+    },
+    {
+      "word": "have",
+      "box": [
+        445,
+        870,
+        476,
+        878
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9831050038337708
+    },
+    {
+      "word": "the",
+      "box": [
+        480,
+        869,
+        500,
+        878
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9888872504234314
+    },
+    {
+      "word": "new",
+      "box": [
+        503,
+        871,
+        529,
+        878
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9892064332962036
+    },
+    {
+      "word": "design.",
+      "box": [
+        534,
+        869,
+        574,
+        881
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9854926466941833
+    },
+    {
+      "word": "“B*",
+      "box": [
+        587,
+        868,
+        606,
+        877
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9719446897506714
+    },
+    {
+      "word": "Kool",
+      "box": [
+        611,
+        868,
+        639,
+        877
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9901806116104126
+    },
+    {
+      "word": "also",
+      "box": [
+        643,
+        868,
+        669,
+        877
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9874460697174072
+    },
+    {
+      "word": "appears",
+      "box": [
+        673,
+        870,
+        725,
+        878
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9874904751777649
+    },
+    {
+      "word": "on",
+      "box": [
+        729,
+        870,
+        745,
+        876
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9876606464385986
+    },
+    {
+      "word": "billboards",
+      "box": [
+        749,
+        867,
+        810,
+        876
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9839921593666077
+    },
+    {
+      "word": "in",
+      "box": [
+        127,
+        895,
+        136,
+        901
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9889068603515625
+    },
+    {
+      "word": "Winois.",
+      "box": [
+        141,
+        893,
+        184,
+        901
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9878153800964355
+    },
+    {
+      "word": "PAGE",
+      "box": [
+        440,
+        952,
+        488,
+        961
+      ],
+      "prediction": "O",
+      "confidence": 0.9576777815818787
+    },
+    {
+      "word": "1",
+      "box": [
+        484,
+        942,
+        494,
+        970
+      ],
+      "prediction": "O",
+      "confidence": 0.9297478199005127
+    },
+    {
+      "word": "OF",
+      "box": [
+        494,
+        952,
+        525,
+        960
+      ],
+      "prediction": "O",
+      "confidence": 0.9003590941429138
+    },
+    {
+      "word": "2",
+      "box": [
+        521,
+        942,
+        531,
+        970
+      ],
+      "prediction": "O",
+      "confidence": 0.9394806623458862
+    }
+  ],
+  "entities": [
+    {
+      "type": "HEADER",
+      "text": "COMPETITIVE PRODUCT INTRODUCTION",
+      "words": [
+        "COMPETITIVE",
+        "PRODUCT",
+        "INTRODUCTION"
+      ],
+      "boxes": [
+        [
+          221,
+          139,
+          317,
+          150
+        ],
+        [
+          322,
+          139,
+          391,
+          149
+        ],
+        [
+          396,
+          138,
+          504,
+          149
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          294,
+          139,
+          421,
+          150
+        ],
+        [
+          428,
+          139,
+          519,
+          149
+        ],
+        [
+          526,
+          138,
+          669,
+          149
+        ]
+      ],
+      "confidence": 0.9683716893196106,
+      "start_index": 0,
+      "end_index": 2
+    },
+    {
+      "type": "HEADER",
+      "text": "PROGRESS REPORT",
+      "words": [
+        "PROGRESS",
+        "REPORT"
+      ],
+      "boxes": [
+        [
+          286,
+          147,
+          369,
+          181
+        ],
+        [
+          379,
+          147,
+          439,
+          181
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          380,
+          147,
+          490,
+          181
+        ],
+        [
+          503,
+          147,
+          583,
+          181
+        ]
+      ],
+      "confidence": 0.7702000141143799,
+      "start_index": 3,
+      "end_index": 4
+    },
+    {
+      "type": "QUESTION",
+      "text": "To:",
+      "words": [
+        "To:"
+      ],
+      "boxes": [
+        [
+          93,
+          204,
+          111,
+          213
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          124,
+          204,
+          148,
+          213
+        ]
+      ],
+      "confidence": 0.9698165655136108,
+      "start_index": 5,
+      "end_index": 5
+    },
+    {
+      "type": "ANSWER",
+      "text": "SamZolot",
+      "words": [
+        "SamZolot"
+      ],
+      "boxes": [
+        [
+          140,
+          204,
+          192,
+          212
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          187,
+          204,
+          255,
+          212
+        ]
+      ],
+      "confidence": 0.9248668551445007,
+      "start_index": 6,
+      "end_index": 6
+    },
+    {
+      "type": "QUESTION",
+      "text": "MANUFACTURER:",
+      "words": [
+        "MANUFACTURER:"
+      ],
+      "boxes": [
+        [
+          314,
+          202,
+          406,
+          211
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          417,
+          202,
+          539,
+          211
+        ]
+      ],
+      "confidence": 0.9782342314720154,
+      "start_index": 7,
+      "end_index": 7
+    },
+    {
+      "type": "QUESTION",
+      "text": "FROM:",
+      "words": [
+        "FROM:"
+      ],
+      "boxes": [
+        [
+          94,
+          222,
+          127,
+          230
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          222,
+          169,
+          230
+        ]
+      ],
+      "confidence": 0.9820413589477539,
+      "start_index": 8,
+      "end_index": 8
+    },
+    {
+      "type": "ANSWER",
+      "text": "Lando",
+      "words": [
+        "Lando"
+      ],
+      "boxes": [
+        [
+          166,
+          221,
+          198,
+          230
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          221,
+          221,
+          263,
+          230
+        ]
+      ],
+      "confidence": 0.9412455558776855,
+      "start_index": 9,
+      "end_index": 9
+    },
+    {
+      "type": "QUESTION",
+      "text": "BRAND:",
+      "words": [
+        "BRAND:"
+      ],
+      "boxes": [
+        [
+          314,
+          220,
+          354,
+          228
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          417,
+          220,
+          470,
+          228
+        ]
+      ],
+      "confidence": 0.9789942502975464,
+      "start_index": 10,
+      "end_index": 10
+    },
+    {
+      "type": "QUESTION",
+      "text": "DATE:",
+      "words": [
+        "DATE:"
+      ],
+      "boxes": [
+        [
+          94,
+          239,
+          125,
+          247
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          239,
+          167,
+          247
+        ]
+      ],
+      "confidence": 0.9812163710594177,
+      "start_index": 11,
+      "end_index": 11
+    },
+    {
+      "type": "QUESTION",
+      "text": "TYPE",
+      "words": [
+        "TYPE"
+      ],
+      "boxes": [
+        [
+          313,
+          236,
+          420,
+          245
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          416,
+          236,
+          558,
+          245
+        ]
+      ],
+      "confidence": 0.9374644160270691,
+      "start_index": 12,
+      "end_index": 12
+    },
+    {
+      "type": "QUESTION",
+      "text": "OF PACKINGS:",
+      "words": [
+        "OF",
+        "PACKINGS:"
+      ],
+      "boxes": [
+        [
+          343,
+          222,
+          360,
+          256
+        ],
+        [
+          365,
+          236,
+          420,
+          245
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          456,
+          222,
+          478,
+          256
+        ],
+        [
+          485,
+          236,
+          558,
+          245
+        ]
+      ],
+      "confidence": 0.8768283426761627,
+      "start_index": 13,
+      "end_index": 14
+    },
+    {
+      "type": "ANSWER",
+      "text": "Al",
+      "words": [
+        "Al"
+      ],
+      "boxes": [
+        [
+          451,
+          236,
+          462,
+          244
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          599,
+          236,
+          614,
+          244
+        ]
+      ],
+      "confidence": 0.9559900164604187,
+      "start_index": 15,
+      "end_index": 15
+    },
+    {
+      "type": "QUESTION",
+      "text": "REPORTING PERIODS:",
+      "words": [
+        "REPORTING",
+        "PERIODS:"
+      ],
+      "boxes": [
+        [
+          94,
+          259,
+          156,
+          293
+        ],
+        [
+          161,
+          259,
+          211,
+          293
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          259,
+          208,
+          293
+        ],
+        [
+          214,
+          259,
+          281,
+          293
+        ]
+      ],
+      "confidence": 0.5921830534934998,
+      "start_index": 16,
+      "end_index": 17
+    },
+    {
+      "type": "ANSWER",
+      "text": "oot",
+      "words": [
+        "oot"
+      ],
+      "boxes": [
+        [
+          279,
+          258,
+          298,
+          292
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          371,
+          258,
+          396,
+          292
+        ]
+      ],
+      "confidence": 0.9620240330696106,
+      "start_index": 18,
+      "end_index": 18
+    },
+    {
+      "type": "ANSWER",
+      "text": "Now",
+      "words": [
+        "Now"
+      ],
+      "boxes": [
+        [
+          369,
+          271,
+          391,
+          279
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          490,
+          271,
+          519,
+          279
+        ]
+      ],
+      "confidence": 0.8777252435684204,
+      "start_index": 19,
+      "end_index": 19
+    },
+    {
+      "type": "QUESTION",
+      "text": "Jan.",
+      "words": [
+        "Jan."
+      ],
+      "boxes": [
+        [
+          554,
+          270,
+          575,
+          278
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          736,
+          270,
+          763,
+          278
+        ]
+      ],
+      "confidence": 0.9083255529403687,
+      "start_index": 20,
+      "end_index": 20
+    },
+    {
+      "type": "QUESTION",
+      "text": "‘TEST MARKET GEOGRAPHY:",
+      "words": [
+        "‘TEST",
+        "MARKET",
+        "GEOGRAPHY:"
+      ],
+      "boxes": [
+        [
+          89,
+          313,
+          121,
+          343
+        ],
+        [
+          129,
+          313,
+          169,
+          343
+        ],
+        [
+          176,
+          313,
+          245,
+          343
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          119,
+          313,
+          161,
+          343
+        ],
+        [
+          172,
+          313,
+          225,
+          343
+        ],
+        [
+          234,
+          313,
+          326,
+          343
+        ]
+      ],
+      "confidence": 0.8258667290210724,
+      "start_index": 21,
+      "end_index": 23
+    },
+    {
+      "type": "QUESTION",
+      "text": "PRICE POINT:",
+      "words": [
+        "PRICE",
+        "POINT:"
+      ],
+      "boxes": [
+        [
+          94,
+          344,
+          126,
+          378
+        ],
+        [
+          129,
+          344,
+          170,
+          378
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          344,
+          168,
+          378
+        ],
+        [
+          172,
+          344,
+          226,
+          378
+        ]
+      ],
+      "confidence": 0.9597000777721405,
+      "start_index": 24,
+      "end_index": 25
+    },
+    {
+      "type": "ANSWER",
+      "text": "FULLS",
+      "words": [
+        "FULLS"
+      ],
+      "boxes": [
+        [
+          181,
+          359,
+          217,
+          367
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          241,
+          359,
+          289,
+          367
+        ]
+      ],
+      "confidence": 0.9154582023620605,
+      "start_index": 26,
+      "end_index": 26
+    },
+    {
+      "type": "ANSWER",
+      "text": "_PIVS",
+      "words": [
+        "_PIVS"
+      ],
+      "boxes": [
+        [
+          256,
+          358,
+          282,
+          367
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          340,
+          358,
+          375,
+          367
+        ]
+      ],
+      "confidence": 0.7688093781471252,
+      "start_index": 27,
+      "end_index": 27
+    },
+    {
+      "type": "QUESTION",
+      "text": "(indicat",
+      "words": [
+        "(indicat"
+      ],
+      "boxes": [
+        [
+          318,
+          344,
+          360,
+          378
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          423,
+          344,
+          478,
+          378
+        ]
+      ],
+      "confidence": 0.40905141830444336,
+      "start_index": 28,
+      "end_index": 28
+    },
+    {
+      "type": "QUESTION",
+      "text": "Cost Per Caron)",
+      "words": [
+        "Cost",
+        "Per",
+        "Caron)"
+      ],
+      "boxes": [
+        [
+          432,
+          344,
+          456,
+          378
+        ],
+        [
+          461,
+          344,
+          476,
+          378
+        ],
+        [
+          481,
+          344,
+          518,
+          378
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          574,
+          344,
+          606,
+          378
+        ],
+        [
+          612,
+          344,
+          632,
+          378
+        ],
+        [
+          639,
+          344,
+          688,
+          378
+        ]
+      ],
+      "confidence": 0.763887345790863,
+      "start_index": 29,
+      "end_index": 31
+    },
+    {
+      "type": "QUESTION",
+      "text": "SALES FORCE INVOLVEME?",
+      "words": [
+        "SALES",
+        "FORCE",
+        "INVOLVEME?"
+      ],
+      "boxes": [
+        [
+          94,
+          398,
+          129,
+          406
+        ],
+        [
+          133,
+          397,
+          169,
+          406
+        ],
+        [
+          173,
+          397,
+          235,
+          405
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          398,
+          172,
+          406
+        ],
+        [
+          177,
+          397,
+          225,
+          406
+        ],
+        [
+          230,
+          397,
+          312,
+          405
+        ]
+      ],
+      "confidence": 0.7615372091531754,
+      "start_index": 32,
+      "end_index": 34
+    },
+    {
+      "type": "ANSWER",
+      "text": "They have ctew-worked distribution, and itis reported that they may crew-workit again.",
+      "words": [
+        "They",
+        "have",
+        "ctew-worked",
+        "distribution,",
+        "and",
+        "itis",
+        "reported",
+        "that",
+        "they",
+        "may",
+        "crew-workit",
+        "again."
+      ],
+      "boxes": [
+        [
+          94,
+          419,
+          117,
+          430
+        ],
+        [
+          121,
+          419,
+          144,
+          427
+        ],
+        [
+          148,
+          407,
+          207,
+          435
+        ],
+        [
+          211,
+          407,
+          266,
+          435
+        ],
+        [
+          269,
+          417,
+          287,
+          426
+        ],
+        [
+          291,
+          418,
+          306,
+          426
+        ],
+        [
+          310,
+          417,
+          349,
+          428
+        ],
+        [
+          352,
+          417,
+          370,
+          426
+        ],
+        [
+          373,
+          417,
+          387,
+          425
+        ],
+        [
+          399,
+          419,
+          416,
+          429
+        ],
+        [
+          419,
+          416,
+          476,
+          425
+        ],
+        [
+          480,
+          416,
+          506,
+          428
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          419,
+          156,
+          430
+        ],
+        [
+          161,
+          419,
+          192,
+          427
+        ],
+        [
+          197,
+          407,
+          275,
+          435
+        ],
+        [
+          281,
+          407,
+          354,
+          435
+        ],
+        [
+          358,
+          417,
+          381,
+          426
+        ],
+        [
+          387,
+          418,
+          407,
+          426
+        ],
+        [
+          412,
+          417,
+          464,
+          428
+        ],
+        [
+          468,
+          417,
+          492,
+          426
+        ],
+        [
+          496,
+          417,
+          514,
+          425
+        ],
+        [
+          530,
+          419,
+          553,
+          429
+        ],
+        [
+          557,
+          416,
+          632,
+          425
+        ],
+        [
+          637,
+          416,
+          672,
+          428
+        ]
+      ],
+      "confidence": 0.9841943121573422,
+      "start_index": 35,
+      "end_index": 46
+    },
+    {
+      "type": "ANSWER",
+      "text": "Sales force has been busy promoting old style packs to clean up inventory. All POS is being converted to \"B* Kool",
+      "words": [
+        "Sales",
+        "force",
+        "has",
+        "been",
+        "busy",
+        "promoting",
+        "old",
+        "style",
+        "packs",
+        "to",
+        "clean",
+        "up",
+        "inventory.",
+        "All",
+        "POS",
+        "is",
+        "being",
+        "converted",
+        "to",
+        "\"B*",
+        "Kool"
+      ],
+      "boxes": [
+        [
+          515,
+          416,
+          541,
+          424
+        ],
+        [
+          544,
+          407,
+          569,
+          435
+        ],
+        [
+          572,
+          415,
+          589,
+          424
+        ],
+        [
+          593,
+          415,
+          616,
+          424
+        ],
+        [
+          620,
+          415,
+          642,
+          426
+        ],
+        [
+          94,
+          441,
+          141,
+          451
+        ],
+        [
+          145,
+          441,
+          158,
+          449
+        ],
+        [
+          162,
+          440,
+          184,
+          451
+        ],
+        [
+          188,
+          440,
+          215,
+          451
+        ],
+        [
+          219,
+          441,
+          227,
+          448
+        ],
+        [
+          231,
+          440,
+          256,
+          448
+        ],
+        [
+          260,
+          442,
+          271,
+          450
+        ],
+        [
+          275,
+          439,
+          318,
+          450
+        ],
+        [
+          327,
+          439,
+          338,
+          447
+        ],
+        [
+          342,
+          439,
+          363,
+          447
+        ],
+        [
+          367,
+          441,
+          375,
+          447
+        ],
+        [
+          378,
+          439,
+          404,
+          449
+        ],
+        [
+          407,
+          438,
+          454,
+          447
+        ],
+        [
+          457,
+          439,
+          466,
+          446
+        ],
+        [
+          469,
+          438,
+          483,
+          446
+        ],
+        [
+          487,
+          438,
+          508,
+          446
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          684,
+          416,
+          718,
+          424
+        ],
+        [
+          722,
+          407,
+          755,
+          435
+        ],
+        [
+          759,
+          415,
+          782,
+          424
+        ],
+        [
+          787,
+          415,
+          818,
+          424
+        ],
+        [
+          823,
+          415,
+          852,
+          426
+        ],
+        [
+          125,
+          441,
+          188,
+          451
+        ],
+        [
+          193,
+          441,
+          210,
+          449
+        ],
+        [
+          216,
+          440,
+          245,
+          451
+        ],
+        [
+          250,
+          440,
+          286,
+          451
+        ],
+        [
+          291,
+          441,
+          302,
+          448
+        ],
+        [
+          307,
+          440,
+          340,
+          448
+        ],
+        [
+          346,
+          442,
+          360,
+          450
+        ],
+        [
+          366,
+          439,
+          423,
+          450
+        ],
+        [
+          435,
+          439,
+          449,
+          447
+        ],
+        [
+          454,
+          439,
+          482,
+          447
+        ],
+        [
+          488,
+          441,
+          498,
+          447
+        ],
+        [
+          502,
+          439,
+          537,
+          449
+        ],
+        [
+          541,
+          438,
+          603,
+          447
+        ],
+        [
+          607,
+          439,
+          619,
+          446
+        ],
+        [
+          623,
+          438,
+          641,
+          446
+        ],
+        [
+          647,
+          438,
+          675,
+          446
+        ]
+      ],
+      "confidence": 0.9888541989729447,
+      "start_index": 47,
+      "end_index": 67
+    },
+    {
+      "type": "HEADER",
+      "text": "DISTRIBUTORS",
+      "words": [
+        "DISTRIBUTORS"
+      ],
+      "boxes": [
+        [
+          94,
+          504,
+          174,
+          513
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          504,
+          232,
+          513
+        ]
+      ],
+      "confidence": 0.7225343585014343,
+      "start_index": 68,
+      "end_index": 68
+    },
+    {
+      "type": "QUESTION",
+      "text": "-",
+      "words": [
+        "-"
+      ],
+      "boxes": [
+        [
+          177,
+          509,
+          181,
+          511
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          236,
+          509,
+          241,
+          511
+        ]
+      ],
+      "confidence": 0.47519344091415405,
+      "start_index": 69,
+      "end_index": 69
+    },
+    {
+      "type": "HEADER",
+      "text": "ACCEPTANCEMNTRO",
+      "words": [
+        "ACCEPTANCEMNTRO"
+      ],
+      "boxes": [
+        [
+          184,
+          503,
+          294,
+          513
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          245,
+          503,
+          391,
+          513
+        ]
+      ],
+      "confidence": 0.5017408132553101,
+      "start_index": 70,
+      "end_index": 70
+    },
+    {
+      "type": "QUESTION",
+      "text": "TERMS/INTRO DEALS/INVOLVEMENT:",
+      "words": [
+        "TERMS/INTRO",
+        "DEALS/INVOLVEMENT:"
+      ],
+      "boxes": [
+        [
+          297,
+          503,
+          370,
+          512
+        ],
+        [
+          374,
+          502,
+          492,
+          511
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          395,
+          503,
+          492,
+          512
+        ],
+        [
+          497,
+          502,
+          653,
+          511
+        ]
+      ],
+      "confidence": 0.8147479891777039,
+      "start_index": 71,
+      "end_index": 72
+    },
+    {
+      "type": "ANSWER",
+      "text": "‘Allaccounts have the new packaging. Itwas not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings.",
+      "words": [
+        "‘Allaccounts",
+        "have",
+        "the",
+        "new",
+        "packaging.",
+        "Itwas",
+        "not",
+        "a",
+        "problem",
+        "obtaining",
+        "new",
+        "distribution.",
+        "All",
+        "accounts",
+        "appear",
+        "to",
+        "have",
+        "100%",
+        "distribution",
+        "of",
+        "new",
+        "packings."
+      ],
+      "boxes": [
+        [
+          93,
+          526,
+          196,
+          535
+        ],
+        [
+          156,
+          514,
+          176,
+          542
+        ],
+        [
+          182,
+          514,
+          197,
+          542
+        ],
+        [
+          200,
+          528,
+          219,
+          534
+        ],
+        [
+          223,
+          525,
+          271,
+          536
+        ],
+        [
+          281,
+          524,
+          377,
+          534
+        ],
+        [
+          313,
+          514,
+          325,
+          542
+        ],
+        [
+          331,
+          514,
+          334,
+          542
+        ],
+        [
+          338,
+          524,
+          374,
+          534
+        ],
+        [
+          380,
+          524,
+          422,
+          534
+        ],
+        [
+          426,
+          526,
+          445,
+          532
+        ],
+        [
+          449,
+          524,
+          500,
+          532
+        ],
+        [
+          510,
+          523,
+          521,
+          531
+        ],
+        [
+          527,
+          514,
+          568,
+          542
+        ],
+        [
+          574,
+          514,
+          605,
+          542
+        ],
+        [
+          94,
+          549,
+          102,
+          556
+        ],
+        [
+          106,
+          548,
+          129,
+          556
+        ],
+        [
+          133,
+          548,
+          159,
+          556
+        ],
+        [
+          163,
+          547,
+          295,
+          559
+        ],
+        [
+          218,
+          537,
+          228,
+          565
+        ],
+        [
+          234,
+          537,
+          249,
+          565
+        ],
+        [
+          253,
+          547,
+          295,
+          559
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          124,
+          526,
+          261,
+          535
+        ],
+        [
+          208,
+          514,
+          234,
+          542
+        ],
+        [
+          242,
+          514,
+          262,
+          542
+        ],
+        [
+          266,
+          528,
+          291,
+          534
+        ],
+        [
+          297,
+          525,
+          360,
+          536
+        ],
+        [
+          374,
+          524,
+          500,
+          534
+        ],
+        [
+          416,
+          514,
+          432,
+          542
+        ],
+        [
+          440,
+          514,
+          444,
+          542
+        ],
+        [
+          449,
+          524,
+          497,
+          534
+        ],
+        [
+          505,
+          524,
+          561,
+          534
+        ],
+        [
+          566,
+          526,
+          591,
+          532
+        ],
+        [
+          596,
+          524,
+          664,
+          532
+        ],
+        [
+          677,
+          523,
+          692,
+          531
+        ],
+        [
+          700,
+          514,
+          754,
+          542
+        ],
+        [
+          762,
+          514,
+          803,
+          542
+        ],
+        [
+          125,
+          549,
+          136,
+          556
+        ],
+        [
+          141,
+          548,
+          172,
+          556
+        ],
+        [
+          177,
+          548,
+          212,
+          556
+        ],
+        [
+          217,
+          547,
+          392,
+          559
+        ],
+        [
+          290,
+          537,
+          303,
+          565
+        ],
+        [
+          311,
+          537,
+          331,
+          565
+        ],
+        [
+          336,
+          547,
+          392,
+          559
+        ]
+      ],
+      "confidence": 0.9868636373583541,
+      "start_index": 73,
+      "end_index": 94
+    },
+    {
+      "type": "QUESTION",
+      "text": "CHAINS - ACCEPTANCE/MERCHANDISING:",
+      "words": [
+        "CHAINS",
+        "-",
+        "ACCEPTANCE/MERCHANDISING:"
+      ],
+      "boxes": [
+        [
+          94,
+          613,
+          134,
+          621
+        ],
+        [
+          138,
+          617,
+          141,
+          619
+        ],
+        [
+          144,
+          611,
+          315,
+          621
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          613,
+          179,
+          621
+        ],
+        [
+          184,
+          617,
+          188,
+          619
+        ],
+        [
+          192,
+          611,
+          419,
+          621
+        ]
+      ],
+      "confidence": 0.8497686088085175,
+      "start_index": 95,
+      "end_index": 97
+    },
+    {
+      "type": "ANSWER",
+      "text": "‘This has not been a problem. New packaging is just following up on the old",
+      "words": [
+        "‘This",
+        "has",
+        "not",
+        "been",
+        "a",
+        "problem.",
+        "New",
+        "packaging",
+        "is",
+        "just",
+        "following",
+        "up",
+        "on",
+        "the",
+        "old"
+      ],
+      "boxes": [
+        [
+          90,
+          623,
+          114,
+          651
+        ],
+        [
+          118,
+          623,
+          135,
+          651
+        ],
+        [
+          138,
+          635,
+          153,
+          643
+        ],
+        [
+          156,
+          635,
+          179,
+          642
+        ],
+        [
+          183,
+          636,
+          188,
+          642
+        ],
+        [
+          192,
+          634,
+          233,
+          644
+        ],
+        [
+          240,
+          633,
+          261,
+          642
+        ],
+        [
+          265,
+          633,
+          323,
+          645
+        ],
+        [
+          316,
+          623,
+          324,
+          651
+        ],
+        [
+          326,
+          633,
+          343,
+          643
+        ],
+        [
+          346,
+          632,
+          387,
+          645
+        ],
+        [
+          393,
+          634,
+          403,
+          644
+        ],
+        [
+          407,
+          623,
+          417,
+          651
+        ],
+        [
+          421,
+          623,
+          433,
+          651
+        ],
+        [
+          439,
+          632,
+          452,
+          640
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          120,
+          623,
+          152,
+          651
+        ],
+        [
+          157,
+          623,
+          180,
+          651
+        ],
+        [
+          184,
+          635,
+          204,
+          643
+        ],
+        [
+          208,
+          635,
+          238,
+          642
+        ],
+        [
+          244,
+          636,
+          250,
+          642
+        ],
+        [
+          255,
+          634,
+          310,
+          644
+        ],
+        [
+          319,
+          633,
+          347,
+          642
+        ],
+        [
+          352,
+          633,
+          429,
+          645
+        ],
+        [
+          420,
+          623,
+          431,
+          651
+        ],
+        [
+          433,
+          633,
+          456,
+          643
+        ],
+        [
+          460,
+          632,
+          514,
+          645
+        ],
+        [
+          522,
+          634,
+          535,
+          644
+        ],
+        [
+          541,
+          623,
+          554,
+          651
+        ],
+        [
+          559,
+          623,
+          575,
+          651
+        ],
+        [
+          583,
+          632,
+          600,
+          640
+        ]
+      ],
+      "confidence": 0.9869097503105877,
+      "start_index": 98,
+      "end_index": 112
+    },
+    {
+      "type": "QUESTION",
+      "text": "INDEPENDENTS - ACCEPTANCE/MERCHANDISING:",
+      "words": [
+        "INDEPENDENTS",
+        "-",
+        "ACCEPTANCE/MERCHANDISING:"
+      ],
+      "boxes": [
+        [
+          94,
+          720,
+          177,
+          729
+        ],
+        [
+          181,
+          724,
+          185,
+          726
+        ],
+        [
+          187,
+          718,
+          358,
+          728
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          720,
+          236,
+          729
+        ],
+        [
+          241,
+          724,
+          246,
+          726
+        ],
+        [
+          249,
+          718,
+          476,
+          728
+        ]
+      ],
+      "confidence": 0.8080487847328186,
+      "start_index": 113,
+      "end_index": 115
+    },
+    {
+      "type": "ANSWER",
+      "text": "Very well received. The old packs are boing consolidated and promoted in select retail at 40¢ off cartons.",
+      "words": [
+        "Very",
+        "well",
+        "received.",
+        "The",
+        "old",
+        "packs",
+        "are",
+        "boing",
+        "consolidated",
+        "and",
+        "promoted",
+        "in",
+        "select",
+        "retail",
+        "at",
+        "40¢",
+        "off",
+        "cartons."
+      ],
+      "boxes": [
+        [
+          94,
+          742,
+          116,
+          753
+        ],
+        [
+          119,
+          742,
+          137,
+          751
+        ],
+        [
+          141,
+          742,
+          181,
+          750
+        ],
+        [
+          190,
+          742,
+          209,
+          750
+        ],
+        [
+          212,
+          741,
+          226,
+          750
+        ],
+        [
+          230,
+          741,
+          257,
+          752
+        ],
+        [
+          261,
+          743,
+          276,
+          749
+        ],
+        [
+          280,
+          741,
+          305,
+          751
+        ],
+        [
+          309,
+          740,
+          368,
+          749
+        ],
+        [
+          372,
+          740,
+          389,
+          748
+        ],
+        [
+          389,
+          739,
+          437,
+          751
+        ],
+        [
+          441,
+          742,
+          449,
+          748
+        ],
+        [
+          452,
+          739,
+          480,
+          748
+        ],
+        [
+          484,
+          739,
+          506,
+          747
+        ],
+        [
+          556,
+          739,
+          564,
+          747
+        ],
+        [
+          567,
+          738,
+          585,
+          749
+        ],
+        [
+          139,
+          753,
+          151,
+          781
+        ],
+        [
+          154,
+          763,
+          189,
+          772
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          742,
+          155,
+          753
+        ],
+        [
+          159,
+          742,
+          183,
+          751
+        ],
+        [
+          188,
+          742,
+          241,
+          750
+        ],
+        [
+          253,
+          742,
+          278,
+          750
+        ],
+        [
+          282,
+          741,
+          301,
+          750
+        ],
+        [
+          306,
+          741,
+          342,
+          752
+        ],
+        [
+          347,
+          743,
+          367,
+          749
+        ],
+        [
+          372,
+          741,
+          405,
+          751
+        ],
+        [
+          411,
+          740,
+          489,
+          749
+        ],
+        [
+          494,
+          740,
+          517,
+          748
+        ],
+        [
+          517,
+          739,
+          580,
+          751
+        ],
+        [
+          586,
+          742,
+          596,
+          748
+        ],
+        [
+          600,
+          739,
+          637,
+          748
+        ],
+        [
+          643,
+          739,
+          672,
+          747
+        ],
+        [
+          738,
+          739,
+          749,
+          747
+        ],
+        [
+          753,
+          738,
+          777,
+          749
+        ],
+        [
+          185,
+          753,
+          201,
+          781
+        ],
+        [
+          205,
+          763,
+          251,
+          772
+        ]
+      ],
+      "confidence": 0.9900200258753102,
+      "start_index": 116,
+      "end_index": 133
+    },
+    {
+      "type": "QUESTION",
+      "text": "ADVERTISING",
+      "words": [
+        "ADVERTISING"
+      ],
+      "boxes": [
+        [
+          94,
+          828,
+          167,
+          837
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          828,
+          222,
+          837
+        ]
+      ],
+      "confidence": 0.6890265345573425,
+      "start_index": 134,
+      "end_index": 134
+    },
+    {
+      "type": "HEADER",
+      "text": "-",
+      "words": [
+        "-"
+      ],
+      "boxes": [
+        [
+          171,
+          832,
+          174,
+          834
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          228,
+          832,
+          232,
+          834
+        ]
+      ],
+      "confidence": 0.527856707572937,
+      "start_index": 135,
+      "end_index": 135
+    },
+    {
+      "type": "QUESTION",
+      "text": "EFFECTIVENESS OF P.0.S.:",
+      "words": [
+        "EFFECTIVENESS",
+        "OF",
+        "P.0.S.:"
+      ],
+      "boxes": [
+        [
+          178,
+          827,
+          265,
+          836
+        ],
+        [
+          268,
+          827,
+          283,
+          835
+        ],
+        [
+          286,
+          826,
+          320,
+          835
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          237,
+          827,
+          352,
+          836
+        ],
+        [
+          356,
+          827,
+          376,
+          835
+        ],
+        [
+          380,
+          826,
+          425,
+          835
+        ]
+      ],
+      "confidence": 0.7414382100105286,
+      "start_index": 136,
+      "end_index": 138
+    },
+    {
+      "type": "ANSWER",
+      "text": "“The theme \"B* Koo! has replaced all previous POS. They have effectively replaced al old POS. New ‘door signage, hour signs. poster mats, and clocks have the new design. “B* Kool also appears on billboards in Winois.",
+      "words": [
+        "“The",
+        "theme",
+        "\"B*",
+        "Koo!",
+        "has",
+        "replaced",
+        "all",
+        "previous",
+        "POS.",
+        "They",
+        "have",
+        "effectively",
+        "replaced",
+        "al",
+        "old",
+        "POS.",
+        "New",
+        "‘door",
+        "signage,",
+        "hour",
+        "signs.",
+        "poster",
+        "mats,",
+        "and",
+        "clocks",
+        "have",
+        "the",
+        "new",
+        "design.",
+        "“B*",
+        "Kool",
+        "also",
+        "appears",
+        "on",
+        "billboards",
+        "in",
+        "Winois."
+      ],
+      "boxes": [
+        [
+          94,
+          850,
+          112,
+          858
+        ],
+        [
+          116,
+          849,
+          152,
+          858
+        ],
+        [
+          150,
+          838,
+          163,
+          866
+        ],
+        [
+          167,
+          849,
+          188,
+          857
+        ],
+        [
+          192,
+          849,
+          209,
+          857
+        ],
+        [
+          212,
+          849,
+          253,
+          859
+        ],
+        [
+          256,
+          849,
+          267,
+          857
+        ],
+        [
+          270,
+          850,
+          310,
+          858
+        ],
+        [
+          314,
+          848,
+          336,
+          856
+        ],
+        [
+          345,
+          848,
+          357,
+          856
+        ],
+        [
+          372,
+          848,
+          394,
+          856
+        ],
+        [
+          398,
+          847,
+          445,
+          857
+        ],
+        [
+          449,
+          847,
+          490,
+          857
+        ],
+        [
+          493,
+          846,
+          503,
+          855
+        ],
+        [
+          507,
+          846,
+          521,
+          855
+        ],
+        [
+          525,
+          846,
+          546,
+          854
+        ],
+        [
+          556,
+          846,
+          577,
+          854
+        ],
+        [
+          94,
+          871,
+          116,
+          880
+        ],
+        [
+          119,
+          873,
+          159,
+          883
+        ],
+        [
+          163,
+          871,
+          185,
+          879
+        ],
+        [
+          188,
+          872,
+          215,
+          882
+        ],
+        [
+          219,
+          871,
+          249,
+          880
+        ],
+        [
+          252,
+          870,
+          277,
+          879
+        ],
+        [
+          281,
+          870,
+          298,
+          878
+        ],
+        [
+          302,
+          870,
+          331,
+          878
+        ],
+        [
+          335,
+          870,
+          358,
+          878
+        ],
+        [
+          361,
+          869,
+          377,
+          878
+        ],
+        [
+          379,
+          871,
+          398,
+          878
+        ],
+        [
+          402,
+          869,
+          432,
+          881
+        ],
+        [
+          442,
+          868,
+          456,
+          877
+        ],
+        [
+          460,
+          868,
+          481,
+          877
+        ],
+        [
+          484,
+          868,
+          504,
+          877
+        ],
+        [
+          507,
+          870,
+          546,
+          878
+        ],
+        [
+          549,
+          870,
+          561,
+          876
+        ],
+        [
+          564,
+          867,
+          610,
+          876
+        ],
+        [
+          95,
+          895,
+          102,
+          901
+        ],
+        [
+          106,
+          893,
+          138,
+          901
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          125,
+          850,
+          149,
+          858
+        ],
+        [
+          155,
+          849,
+          202,
+          858
+        ],
+        [
+          200,
+          838,
+          217,
+          866
+        ],
+        [
+          222,
+          849,
+          250,
+          857
+        ],
+        [
+          255,
+          849,
+          278,
+          857
+        ],
+        [
+          282,
+          849,
+          336,
+          859
+        ],
+        [
+          340,
+          849,
+          355,
+          857
+        ],
+        [
+          359,
+          850,
+          412,
+          858
+        ],
+        [
+          417,
+          848,
+          446,
+          856
+        ],
+        [
+          458,
+          848,
+          474,
+          856
+        ],
+        [
+          494,
+          848,
+          523,
+          856
+        ],
+        [
+          529,
+          847,
+          591,
+          857
+        ],
+        [
+          596,
+          847,
+          651,
+          857
+        ],
+        [
+          655,
+          846,
+          668,
+          855
+        ],
+        [
+          673,
+          846,
+          692,
+          855
+        ],
+        [
+          697,
+          846,
+          725,
+          854
+        ],
+        [
+          738,
+          846,
+          766,
+          854
+        ],
+        [
+          125,
+          871,
+          155,
+          880
+        ],
+        [
+          159,
+          873,
+          212,
+          883
+        ],
+        [
+          217,
+          871,
+          246,
+          879
+        ],
+        [
+          250,
+          872,
+          286,
+          882
+        ],
+        [
+          291,
+          871,
+          331,
+          880
+        ],
+        [
+          335,
+          870,
+          368,
+          879
+        ],
+        [
+          374,
+          870,
+          396,
+          878
+        ],
+        [
+          401,
+          870,
+          440,
+          878
+        ],
+        [
+          445,
+          870,
+          476,
+          878
+        ],
+        [
+          480,
+          869,
+          500,
+          878
+        ],
+        [
+          503,
+          871,
+          529,
+          878
+        ],
+        [
+          534,
+          869,
+          574,
+          881
+        ],
+        [
+          587,
+          868,
+          606,
+          877
+        ],
+        [
+          611,
+          868,
+          639,
+          877
+        ],
+        [
+          643,
+          868,
+          669,
+          877
+        ],
+        [
+          673,
+          870,
+          725,
+          878
+        ],
+        [
+          729,
+          870,
+          745,
+          876
+        ],
+        [
+          749,
+          867,
+          810,
+          876
+        ],
+        [
+          127,
+          895,
+          136,
+          901
+        ],
+        [
+          141,
+          893,
+          184,
+          901
+        ]
+      ],
+      "confidence": 0.9875361013022415,
+      "start_index": 139,
+      "end_index": 175
+    }
+  ],
+  "summary": {
+    "total_words": 180,
+    "total_entities": 38,
+    "entity_counts": {
+      "HEADER": 5,
+      "QUESTION": 20,
+      "ANSWER": 13
+    }
+  }
+}

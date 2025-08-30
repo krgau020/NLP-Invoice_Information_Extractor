@@ -1,0 +1,2853 @@
+{
+  "image_path": "C:\\Users\\admin\\Desktop\\NLP\\Information-Extraction-System\\dataset\\test_data\\82092117.png",
+  "timestamp": "2025-08-31T00:38:40.575780",
+  "word_level_predictions": [
+    {
+      "word": "AIT.",
+      "box": [
+        137,
+        88,
+        168,
+        98
+      ],
+      "prediction": "O",
+      "confidence": 0.980351984500885
+    },
+    {
+      "word": "GEN,",
+      "box": [
+        181,
+        88,
+        210,
+        98
+      ],
+      "prediction": "O",
+      "confidence": 0.9847877025604248
+    },
+    {
+      "word": "ADMIN,",
+      "box": [
+        221,
+        78,
+        269,
+        107
+      ],
+      "prediction": "O",
+      "confidence": 0.9595915079116821
+    },
+    {
+      "word": "OFFICE",
+      "box": [
+        275,
+        78,
+        322,
+        107
+      ],
+      "prediction": "O",
+      "confidence": 0.9801464676856995
+    },
+    {
+      "word": "Dec",
+      "box": [
+        557,
+        87,
+        580,
+        97
+      ],
+      "prediction": "O",
+      "confidence": 0.9811027646064758
+    },
+    {
+      "word": "10",
+      "box": [
+        591,
+        87,
+        607,
+        97
+      ],
+      "prediction": "O",
+      "confidence": 0.9862772822380066
+    },
+    {
+      "word": "'98",
+      "box": [
+        618,
+        87,
+        640,
+        101
+      ],
+      "prediction": "O",
+      "confidence": 0.989434540271759
+    },
+    {
+      "word": "17:06",
+      "box": [
+        667,
+        87,
+        706,
+        97
+      ],
+      "prediction": "O",
+      "confidence": 0.9871382713317871
+    },
+    {
+      "word": "EAA",
+      "box": [
+        98,
+        144,
+        167,
+        166
+      ],
+      "prediction": "B-HEADER",
+      "confidence": 0.56693035364151
+    },
+    {
+      "word": "Attomey",
+      "box": [
+        196,
+        154,
+        281,
+        169
+      ],
+      "prediction": "B-HEADER",
+      "confidence": 0.651248574256897
+    },
+    {
+      "word": "General",
+      "box": [
+        287,
+        153,
+        364,
+        166
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.8744589686393738
+    },
+    {
+      "word": "CONFIDENTIAL",
+      "box": [
+        364,
+        253,
+        501,
+        264
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9058361649513245
+    },
+    {
+      "word": "FACSIMILE",
+      "box": [
+        506,
+        253,
+        604,
+        264
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9229098558425903
+    },
+    {
+      "word": "TRANSMISSION",
+      "box": [
+        351,
+        269,
+        488,
+        280
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.5372018218040466
+    },
+    {
+      "word": "COVER",
+      "box": [
+        493,
+        269,
+        555,
+        280
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9563155770301819
+    },
+    {
+      "word": "SHEET",
+      "box": [
+        559,
+        270,
+        618,
+        280
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.9635728597640991
+    },
+    {
+      "word": "FAX",
+      "box": [
+        392,
+        292,
+        424,
+        320
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.37638363242149353
+    },
+    {
+      "word": "NO,",
+      "box": [
+        433,
+        292,
+        458,
+        320
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.5472742915153503
+    },
+    {
+      "word": "(614)",
+      "box": [
+        468,
+        300,
+        506,
+        313
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.744208037853241
+    },
+    {
+      "word": "466-5087",
+      "box": [
+        510,
+        300,
+        576,
+        311
+      ],
+      "prediction": "O",
+      "confidence": 0.4890638589859009
+    },
+    {
+      "word": "TO:",
+      "box": [
+        137,
+        348,
+        169,
+        357
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9757659435272217
+    },
+    {
+      "word": "_George",
+      "box": [
+        180,
+        348,
+        245,
+        360
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.8188284635543823
+    },
+    {
+      "word": "Baroody",
+      "box": [
+        249,
+        347,
+        310,
+        358
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9742854833602905
+    },
+    {
+      "word": "FAX",
+      "box": [
+        137,
+        379,
+        176,
+        389
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9837833046913147
+    },
+    {
+      "word": "NUMBER:",
+      "box": [
+        180,
+        379,
+        263,
+        389
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.9666550159454346
+    },
+    {
+      "word": "__(336)",
+      "box": [
+        273,
+        375,
+        339,
+        399
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9265488386154175
+    },
+    {
+      "word": "335-7392",
+      "box": [
+        344,
+        375,
+        413,
+        399
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9146419167518616
+    },
+    {
+      "word": "PHONE",
+      "box": [
+        511,
+        379,
+        572,
+        390
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9841635823249817
+    },
+    {
+      "word": "NUMBER:",
+      "box": [
+        578,
+        379,
+        661,
+        389
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.9704079627990723
+    },
+    {
+      "word": "(336)",
+      "box": [
+        671,
+        379,
+        709,
+        392
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.9630349278450012
+    },
+    {
+      "word": "335-7363",
+      "box": [
+        714,
+        380,
+        781,
+        392
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9197219014167786
+    },
+    {
+      "word": "DATE:",
+      "box": [
+        139,
+        410,
+        193,
+        421
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9733180999755859
+    },
+    {
+      "word": "1210/98",
+      "box": [
+        248,
+        410,
+        309,
+        423
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.955267608165741
+    },
+    {
+      "word": "NUMBER",
+      "box": [
+        137,
+        443,
+        218,
+        454
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.7102518081665039
+    },
+    {
+      "word": "OF",
+      "box": [
+        222,
+        443,
+        248,
+        454
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8197749853134155
+    },
+    {
+      "word": "PAGES",
+      "box": [
+        251,
+        443,
+        311,
+        454
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8871573805809021
+    },
+    {
+      "word": "INCLUDING",
+      "box": [
+        315,
+        443,
+        419,
+        456
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.8286798000335693
+    },
+    {
+      "word": "COVER",
+      "box": [
+        424,
+        443,
+        486,
+        454
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7881421446800232
+    },
+    {
+      "word": "SHEET:",
+      "box": [
+        492,
+        443,
+        554,
+        454
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.7852447628974915
+    },
+    {
+      "word": "3",
+      "box": [
+        616,
+        444,
+        624,
+        456
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.7940481305122375
+    },
+    {
+      "word": "SENDER/PHONE",
+      "box": [
+        137,
+        475,
+        279,
+        485
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.9705011248588562
+    },
+    {
+      "word": "NUMBER:",
+      "box": [
+        285,
+        475,
+        368,
+        485
+      ],
+      "prediction": "I-QUESTION",
+      "confidence": 0.9586324095726013
+    },
+    {
+      "word": "___June",
+      "box": [
+        376,
+        465,
+        437,
+        497
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.843955934047699
+    },
+    {
+      "word": "Flynn",
+      "box": [
+        442,
+        465,
+        480,
+        497
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.8944398760795593
+    },
+    {
+      "word": "for",
+      "box": [
+        489,
+        465,
+        507,
+        497
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9180833101272583
+    },
+    {
+      "word": "Erie",
+      "box": [
+        514,
+        465,
+        543,
+        497
+      ],
+      "prediction": "I-ANSWER",
+      "confidence": 0.9136707782745361
+    },
+    {
+      "word": "466.9980",
+      "box": [
+        641,
+        465,
+        713,
+        497
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.917414128780365
+    },
+    {
+      "word": "‘SPECIAL",
+      "box": [
+        137,
+        506,
+        216,
+        517
+      ],
+      "prediction": "B-HEADER",
+      "confidence": 0.6091565489768982
+    },
+    {
+      "word": "INSTRUCTIONS:",
+      "box": [
+        220,
+        506,
+        362,
+        517
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.6178460121154785
+    },
+    {
+      "word": "You.",
+      "box": [
+        233,
+        602,
+        294,
+        612
+      ],
+      "prediction": "O",
+      "confidence": 0.5034727454185486
+    },
+    {
+      "word": "OF",
+      "box": [
+        500,
+        602,
+        523,
+        612
+      ],
+      "prediction": "O",
+      "confidence": 0.6156901121139526
+    },
+    {
+      "word": "OP}",
+      "box": [
+        657,
+        602,
+        680,
+        612
+      ],
+      "prediction": "O",
+      "confidence": 0.701020359992981
+    },
+    {
+      "word": "ELEASE",
+      "box": [
+        360,
+        607,
+        433,
+        640
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.6482318043708801
+    },
+    {
+      "word": "CONTACT",
+      "box": [
+        444,
+        607,
+        525,
+        640
+      ],
+      "prediction": "O",
+      "confidence": 0.4604511260986328
+    },
+    {
+      "word": "SENDER",
+      "box": [
+        531,
+        607,
+        608,
+        640
+      ],
+      "prediction": "I-HEADER",
+      "confidence": 0.5175553560256958
+    },
+    {
+      "word": "AS:",
+      "box": [
+        387,
+        629,
+        409,
+        650
+      ],
+      "prediction": "B-QUESTION",
+      "confidence": 0.669515073299408
+    },
+    {
+      "word": "LE",
+      "box": [
+        564,
+        634,
+        580,
+        644
+      ],
+      "prediction": "B-ANSWER",
+      "confidence": 0.4564269483089447
+    },
+    {
+      "word": "‘THIS",
+      "box": [
+        213,
+        685,
+        254,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9821205735206604
+    },
+    {
+      "word": "MESSAGE",
+      "box": [
+        262,
+        685,
+        322,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9822596907615662
+    },
+    {
+      "word": "IS",
+      "box": [
+        330,
+        685,
+        343,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9880340695381165
+    },
+    {
+      "word": "INTENDED",
+      "box": [
+        352,
+        685,
+        421,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9895796179771423
+    },
+    {
+      "word": "ONLY",
+      "box": [
+        429,
+        685,
+        464,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9882331490516663
+    },
+    {
+      "word": "FOR",
+      "box": [
+        473,
+        685,
+        501,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9879298210144043
+    },
+    {
+      "word": "THE",
+      "box": [
+        510,
+        685,
+        535,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9882335662841797
+    },
+    {
+      "word": "USE",
+      "box": [
+        541,
+        695,
+        566,
+        704
+      ],
+      "prediction": "O",
+      "confidence": 0.9843088984489441
+    },
+    {
+      "word": "OF",
+      "box": [
+        575,
+        695,
+        591,
+        704
+      ],
+      "prediction": "O",
+      "confidence": 0.9809746146202087
+    },
+    {
+      "word": "THE",
+      "box": [
+        599,
+        685,
+        625,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9838584065437317
+    },
+    {
+      "word": "INDIVIDUAL",
+      "box": [
+        631,
+        685,
+        714,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9847832322120667
+    },
+    {
+      "word": "OR",
+      "box": [
+        724,
+        685,
+        740,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9816735982894897
+    },
+    {
+      "word": "ENTITY",
+      "box": [
+        748,
+        685,
+        798,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9839656352996826
+    },
+    {
+      "word": "7O|",
+      "box": [
+        807,
+        685,
+        828,
+        713
+      ],
+      "prediction": "O",
+      "confidence": 0.9853485226631165
+    },
+    {
+      "word": "WHOM",
+      "box": [
+        218,
+        708,
+        307,
+        717
+      ],
+      "prediction": "O",
+      "confidence": 0.9866798520088196
+    },
+    {
+      "word": "IT",
+      "box": [
+        271,
+        699,
+        287,
+        727
+      ],
+      "prediction": "O",
+      "confidence": 0.9869333505630493
+    },
+    {
+      "word": "IS",
+      "box": [
+        295,
+        699,
+        310,
+        727
+      ],
+      "prediction": "O",
+      "confidence": 0.9856657385826111
+    },
+    {
+      "word": "ADDRESSED",
+      "box": [
+        315,
+        708,
+        481,
+        718
+      ],
+      "prediction": "O",
+      "confidence": 0.983148455619812
+    },
+    {
+      "word": "AND",
+      "box": [
+        411,
+        699,
+        440,
+        727
+      ],
+      "prediction": "O",
+      "confidence": 0.9883579611778259
+    },
+    {
+      "word": "MAY",
+      "box": [
+        450,
+        699,
+        480,
+        727
+      ],
+      "prediction": "O",
+      "confidence": 0.9905208349227905
+    },
+    {
+      "word": "CONTAIN",
+      "box": [
+        488,
+        708,
+        554,
+        718
+      ],
+      "prediction": "O",
+      "confidence": 0.9905515909194946
+    },
+    {
+      "word": "INFORMATION",
+      "box": [
+        561,
+        708,
+        663,
+        718
+      ],
+      "prediction": "O",
+      "confidence": 0.989398717880249
+    },
+    {
+      "word": "THAT",
+      "box": [
+        668,
+        699,
+        705,
+        727
+      ],
+      "prediction": "O",
+      "confidence": 0.986206591129303
+    },
+    {
+      "word": "IS",
+      "box": [
+        714,
+        708,
+        729,
+        717
+      ],
+      "prediction": "O",
+      "confidence": 0.9877447485923767
+    },
+    {
+      "word": "PRIVILEGED,",
+      "box": [
+        736,
+        708,
+        827,
+        719
+      ],
+      "prediction": "O",
+      "confidence": 0.9902406930923462
+    },
+    {
+      "word": "|",
+      "box": [
+        828,
+        699,
+        832,
+        727
+      ],
+      "prediction": "O",
+      "confidence": 0.9041976928710938
+    },
+    {
+      "word": "CONFIDENTIAL,",
+      "box": [
+        218,
+        722,
+        330,
+        732
+      ],
+      "prediction": "O",
+      "confidence": 0.9898903369903564
+    },
+    {
+      "word": "AND",
+      "box": [
+        343,
+        712,
+        368,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9872322082519531
+    },
+    {
+      "word": "EXEMPT",
+      "box": [
+        376,
+        712,
+        433,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9902016520500183
+    },
+    {
+      "word": "FROM",
+      "box": [
+        441,
+        712,
+        480,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9869875907897949
+    },
+    {
+      "word": "DISCLOSURE",
+      "box": [
+        490,
+        712,
+        579,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9885324239730835
+    },
+    {
+      "word": "UNDER",
+      "box": [
+        587,
+        712,
+        635,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.987717866897583
+    },
+    {
+      "word": "APPLICABLE",
+      "box": [
+        643,
+        712,
+        733,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9894036054611206
+    },
+    {
+      "word": "LAW.",
+      "box": [
+        742,
+        712,
+        777,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9862940907478333
+    },
+    {
+      "word": "If",
+      "box": [
+        785,
+        712,
+        802,
+        740
+      ],
+      "prediction": "O",
+      "confidence": 0.9887597560882568
+    },
+    {
+      "word": "the]",
+      "box": [
+        807,
+        722,
+        827,
+        731
+      ],
+      "prediction": "O",
+      "confidence": 0.989237368106842
+    },
+    {
+      "word": "reader",
+      "box": [
+        213,
+        725,
+        254,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9866983890533447
+    },
+    {
+      "word": "of",
+      "box": [
+        259,
+        725,
+        269,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9878902435302734
+    },
+    {
+      "word": "this",
+      "box": [
+        278,
+        725,
+        297,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9883449077606201
+    },
+    {
+      "word": "message",
+      "box": [
+        302,
+        725,
+        350,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9852598905563354
+    },
+    {
+      "word": "isnot",
+      "box": [
+        355,
+        725,
+        387,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9866154193878174
+    },
+    {
+      "word": "the",
+      "box": [
+        392,
+        725,
+        408,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9888856410980225
+    },
+    {
+      "word": "intended",
+      "box": [
+        413,
+        725,
+        461,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9885776042938232
+    },
+    {
+      "word": "recipient",
+      "box": [
+        469,
+        725,
+        517,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9849452376365662
+    },
+    {
+      "word": "of",
+      "box": [
+        522,
+        725,
+        533,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9881047606468201
+    },
+    {
+      "word": "the",
+      "box": [
+        537,
+        725,
+        557,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9880174398422241
+    },
+    {
+      "word": "or",
+      "box": [
+        622,
+        725,
+        635,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9881277680397034
+    },
+    {
+      "word": "agent",
+      "box": [
+        640,
+        725,
+        668,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9870585799217224
+    },
+    {
+      "word": "responsible",
+      "box": [
+        673,
+        725,
+        740,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9871932864189148
+    },
+    {
+      "word": "for",
+      "box": [
+        745,
+        725,
+        761,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9872502088546753
+    },
+    {
+      "word": "|",
+      "box": [
+        828,
+        725,
+        832,
+        753
+      ],
+      "prediction": "O",
+      "confidence": 0.9828150868415833
+    },
+    {
+      "word": "the",
+      "box": [
+        213,
+        738,
+        236,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9874457120895386
+    },
+    {
+      "word": "message",
+      "box": [
+        244,
+        738,
+        291,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9855173230171204
+    },
+    {
+      "word": "to",
+      "box": [
+        299,
+        738,
+        310,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9862261414527893
+    },
+    {
+      "word": "the",
+      "box": [
+        315,
+        738,
+        334,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9867686629295349
+    },
+    {
+      "word": "intended",
+      "box": [
+        339,
+        738,
+        389,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.984279215335846
+    },
+    {
+      "word": "reciplent,",
+      "box": [
+        399,
+        738,
+        454,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9809984564781189
+    },
+    {
+      "word": "you",
+      "box": [
+        460,
+        738,
+        480,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9885494112968445
+    },
+    {
+      "word": "are",
+      "box": [
+        485,
+        738,
+        505,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9895083904266357
+    },
+    {
+      "word": "hereby",
+      "box": [
+        510,
+        738,
+        547,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9890831708908081
+    },
+    {
+      "word": "notified",
+      "box": [
+        557,
+        738,
+        600,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9905216693878174
+    },
+    {
+      "word": "that",
+      "box": [
+        608,
+        738,
+        631,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9920405745506287
+    },
+    {
+      "word": "any",
+      "box": [
+        636,
+        738,
+        656,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9874504804611206
+    },
+    {
+      "word": "dissemination,",
+      "box": [
+        664,
+        738,
+        749,
+        766
+      ],
+      "prediction": "O",
+      "confidence": 0.9884358644485474
+    },
+    {
+      "word": "copying.",
+      "box": [
+        213,
+        752,
+        269,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9901114106178284
+    },
+    {
+      "word": "or",
+      "box": [
+        278,
+        752,
+        290,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9898618459701538
+    },
+    {
+      "word": "conveying",
+      "box": [
+        295,
+        752,
+        359,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9869242310523987
+    },
+    {
+      "word": "of",
+      "box": [
+        366,
+        761,
+        377,
+        770
+      ],
+      "prediction": "O",
+      "confidence": 0.9889045357704163
+    },
+    {
+      "word": "this",
+      "box": [
+        385,
+        752,
+        408,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9897051453590393
+    },
+    {
+      "word": "communication",
+      "box": [
+        417,
+        752,
+        505,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9860956072807312
+    },
+    {
+      "word": "in",
+      "box": [
+        511,
+        752,
+        523,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9893459677696228
+    },
+    {
+      "word": "axy",
+      "box": [
+        531,
+        752,
+        551,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.98879075050354
+    },
+    {
+      "word": "manner",
+      "box": [
+        559,
+        752,
+        600,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.988349199295044
+    },
+    {
+      "word": "is",
+      "box": [
+        608,
+        752,
+        619,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.990165650844574
+    },
+    {
+      "word": "strictly",
+      "box": [
+        624,
+        752,
+        665,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9903280138969421
+    },
+    {
+      "word": "prohibited.",
+      "box": [
+        673,
+        752,
+        740,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9898583292961121
+    },
+    {
+      "word": "\"If",
+      "box": [
+        745,
+        752,
+        765,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.990982711315155
+    },
+    {
+      "word": "you.",
+      "box": [
+        770,
+        752,
+        795,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.989327073097229
+    },
+    {
+      "word": "ave}",
+      "box": [
+        803,
+        752,
+        832,
+        780
+      ],
+      "prediction": "O",
+      "confidence": 0.9898442029953003
+    },
+    {
+      "word": "received",
+      "box": [
+        213,
+        765,
+        266,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9915677905082703
+    },
+    {
+      "word": "this",
+      "box": [
+        274,
+        765,
+        301,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9911106824874878
+    },
+    {
+      "word": "communication",
+      "box": [
+        306,
+        765,
+        396,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9892265200614929
+    },
+    {
+      "word": "ia",
+      "box": [
+        405,
+        765,
+        415,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9907544851303101
+    },
+    {
+      "word": "eror,",
+      "box": [
+        423,
+        765,
+        454,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9901893734931946
+    },
+    {
+      "word": "please",
+      "box": [
+        464,
+        765,
+        498,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.991089940071106
+    },
+    {
+      "word": "notify",
+      "box": [
+        506,
+        765,
+        541,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.992093026638031
+    },
+    {
+      "word": "us",
+      "box": [
+        550,
+        778,
+        562,
+        784
+      ],
+      "prediction": "O",
+      "confidence": 0.9924488067626953
+    },
+    {
+      "word": "by",
+      "box": [
+        649,
+        775,
+        663,
+        786
+      ],
+      "prediction": "O",
+      "confidence": 0.9915825724601746
+    },
+    {
+      "word": "telephone",
+      "box": [
+        671,
+        765,
+        730,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9914544820785522
+    },
+    {
+      "word": "end",
+      "box": [
+        738,
+        765,
+        758,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.9905118346214294
+    },
+    {
+      "word": "the}",
+      "box": [
+        807,
+        765,
+        832,
+        793
+      ],
+      "prediction": "O",
+      "confidence": 0.991868257522583
+    },
+    {
+      "word": "message",
+      "box": [
+        273,
+        778,
+        323,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9919295310974121
+    },
+    {
+      "word": "to",
+      "box": [
+        328,
+        778,
+        342,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9923261404037476
+    },
+    {
+      "word": "us",
+      "box": [
+        350,
+        778,
+        362,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9921531081199646
+    },
+    {
+      "word": "at",
+      "box": [
+        370,
+        778,
+        380,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9926757216453552
+    },
+    {
+      "word": "the",
+      "box": [
+        388,
+        778,
+        405,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9915820956230164
+    },
+    {
+      "word": "address",
+      "box": [
+        415,
+        778,
+        457,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9908137917518616
+    },
+    {
+      "word": "below",
+      "box": [
+        465,
+        778,
+        500,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9914985299110413
+    },
+    {
+      "word": "via",
+      "box": [
+        507,
+        778,
+        525,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9923011064529419
+    },
+    {
+      "word": "the",
+      "box": [
+        533,
+        778,
+        554,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9925354719161987
+    },
+    {
+      "word": "USS.",
+      "box": [
+        559,
+        778,
+        584,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9923449158668518
+    },
+    {
+      "word": "Postal",
+      "box": [
+        594,
+        778,
+        631,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9914451837539673
+    },
+    {
+      "word": "Service,",
+      "box": [
+        639,
+        778,
+        683,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9912161827087402
+    },
+    {
+      "word": "Thank",
+      "box": [
+        698,
+        788,
+        827,
+        803
+      ],
+      "prediction": "O",
+      "confidence": 0.9818295240402222
+    },
+    {
+      "word": "you",
+      "box": [
+        745,
+        778,
+        765,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9878008365631104
+    },
+    {
+      "word": "for",
+      "box": [
+        773,
+        778,
+        794,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9854010939598083
+    },
+    {
+      "word": "your",
+      "box": [
+        802,
+        778,
+        832,
+        807
+      ],
+      "prediction": "O",
+      "confidence": 0.9875435829162598
+    },
+    {
+      "word": "‘State",
+      "box": [
+        242,
+        890,
+        277,
+        900
+      ],
+      "prediction": "O",
+      "confidence": 0.9893234372138977
+    },
+    {
+      "word": "Office",
+      "box": [
+        283,
+        881,
+        318,
+        909
+      ],
+      "prediction": "O",
+      "confidence": 0.9919398427009583
+    },
+    {
+      "word": "Tower",
+      "box": [
+        326,
+        891,
+        362,
+        900
+      ],
+      "prediction": "O",
+      "confidence": 0.9902282953262329
+    },
+    {
+      "word": "/",
+      "box": [
+        367,
+        891,
+        370,
+        899
+      ],
+      "prediction": "O",
+      "confidence": 0.9883427023887634
+    },
+    {
+      "word": "$0",
+      "box": [
+        375,
+        891,
+        391,
+        899
+      ],
+      "prediction": "O",
+      "confidence": 0.9894434213638306
+    },
+    {
+      "word": "East",
+      "box": [
+        395,
+        891,
+        424,
+        899
+      ],
+      "prediction": "O",
+      "confidence": 0.9898862838745117
+    },
+    {
+      "word": "Broad",
+      "box": [
+        428,
+        890,
+        466,
+        900
+      ],
+      "prediction": "O",
+      "confidence": 0.9862500429153442
+    },
+    {
+      "word": "/",
+      "box": [
+        515,
+        881,
+        519,
+        909
+      ],
+      "prediction": "O",
+      "confidence": 0.9851409196853638
+    },
+    {
+      "word": "Columbus,",
+      "box": [
+        521,
+        890,
+        590,
+        900
+      ],
+      "prediction": "O",
+      "confidence": 0.989270806312561
+    },
+    {
+      "word": "Ohio",
+      "box": [
+        595,
+        890,
+        624,
+        899
+      ],
+      "prediction": "O",
+      "confidence": 0.9881379008293152
+    },
+    {
+      "word": "wwwag.state.oh.us",
+      "box": [
+        415,
+        904,
+        541,
+        915
+      ],
+      "prediction": "O",
+      "confidence": 0.9923852682113647
+    },
+    {
+      "word": "‘An",
+      "box": [
+        387,
+        917,
+        403,
+        924
+      ],
+      "prediction": "O",
+      "confidence": 0.9894997477531433
+    },
+    {
+      "word": "Opportunity",
+      "box": [
+        446,
+        906,
+        511,
+        934
+      ],
+      "prediction": "O",
+      "confidence": 0.9889513850212097
+    },
+    {
+      "word": "Employer",
+      "box": [
+        517,
+        906,
+        576,
+        934
+      ],
+      "prediction": "O",
+      "confidence": 0.9880557060241699
+    },
+    {
+      "word": "Dorian",
+      "box": [
+        387,
+        943,
+        564,
+        953
+      ],
+      "prediction": "O",
+      "confidence": 0.9680086374282837
+    },
+    {
+      "word": "on",
+      "box": [
+        456,
+        932,
+        469,
+        960
+      ],
+      "prediction": "O",
+      "confidence": 0.9888456463813782
+    },
+    {
+      "word": "reper",
+      "box": [
+        533,
+        932,
+        571,
+        960
+      ],
+      "prediction": "O",
+      "confidence": 0.990939736366272
+    }
+  ],
+  "entities": [
+    {
+      "type": "HEADER",
+      "text": "EAA",
+      "words": [
+        "EAA"
+      ],
+      "boxes": [
+        [
+          73,
+          144,
+          125,
+          166
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          98,
+          144,
+          167,
+          166
+        ]
+      ],
+      "confidence": 0.56693035364151,
+      "start_index": 8,
+      "end_index": 8
+    },
+    {
+      "type": "HEADER",
+      "text": "Attomey General CONFIDENTIAL FACSIMILE TRANSMISSION COVER SHEET",
+      "words": [
+        "Attomey",
+        "General",
+        "CONFIDENTIAL",
+        "FACSIMILE",
+        "TRANSMISSION",
+        "COVER",
+        "SHEET"
+      ],
+      "boxes": [
+        [
+          147,
+          154,
+          211,
+          169
+        ],
+        [
+          216,
+          153,
+          274,
+          166
+        ],
+        [
+          274,
+          253,
+          377,
+          264
+        ],
+        [
+          381,
+          253,
+          455,
+          264
+        ],
+        [
+          264,
+          269,
+          367,
+          280
+        ],
+        [
+          371,
+          269,
+          418,
+          280
+        ],
+        [
+          421,
+          270,
+          465,
+          280
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          196,
+          154,
+          281,
+          169
+        ],
+        [
+          287,
+          153,
+          364,
+          166
+        ],
+        [
+          364,
+          253,
+          501,
+          264
+        ],
+        [
+          506,
+          253,
+          604,
+          264
+        ],
+        [
+          351,
+          269,
+          488,
+          280
+        ],
+        [
+          493,
+          269,
+          555,
+          280
+        ],
+        [
+          559,
+          270,
+          618,
+          280
+        ]
+      ],
+      "confidence": 0.8978439783677459,
+      "start_index": 9,
+      "end_index": 15
+    },
+    {
+      "type": "ANSWER",
+      "text": "FAX",
+      "words": [
+        "FAX"
+      ],
+      "boxes": [
+        [
+          295,
+          292,
+          319,
+          320
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          392,
+          292,
+          424,
+          320
+        ]
+      ],
+      "confidence": 0.37638363242149353,
+      "start_index": 16,
+      "end_index": 16
+    },
+    {
+      "type": "QUESTION",
+      "text": "NO,",
+      "words": [
+        "NO,"
+      ],
+      "boxes": [
+        [
+          326,
+          292,
+          345,
+          320
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          433,
+          292,
+          458,
+          320
+        ]
+      ],
+      "confidence": 0.5472742915153503,
+      "start_index": 17,
+      "end_index": 17
+    },
+    {
+      "type": "ANSWER",
+      "text": "(614)",
+      "words": [
+        "(614)"
+      ],
+      "boxes": [
+        [
+          352,
+          300,
+          381,
+          313
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          468,
+          300,
+          506,
+          313
+        ]
+      ],
+      "confidence": 0.744208037853241,
+      "start_index": 18,
+      "end_index": 18
+    },
+    {
+      "type": "QUESTION",
+      "text": "TO:",
+      "words": [
+        "TO:"
+      ],
+      "boxes": [
+        [
+          103,
+          348,
+          127,
+          357
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          137,
+          348,
+          169,
+          357
+        ]
+      ],
+      "confidence": 0.9757659435272217,
+      "start_index": 20,
+      "end_index": 20
+    },
+    {
+      "type": "ANSWER",
+      "text": "_George Baroody",
+      "words": [
+        "_George",
+        "Baroody"
+      ],
+      "boxes": [
+        [
+          135,
+          348,
+          184,
+          360
+        ],
+        [
+          187,
+          347,
+          233,
+          358
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          180,
+          348,
+          245,
+          360
+        ],
+        [
+          249,
+          347,
+          310,
+          358
+        ]
+      ],
+      "confidence": 0.8965569734573364,
+      "start_index": 21,
+      "end_index": 22
+    },
+    {
+      "type": "QUESTION",
+      "text": "FAX NUMBER:",
+      "words": [
+        "FAX",
+        "NUMBER:"
+      ],
+      "boxes": [
+        [
+          103,
+          379,
+          132,
+          389
+        ],
+        [
+          135,
+          379,
+          198,
+          389
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          137,
+          379,
+          176,
+          389
+        ],
+        [
+          180,
+          379,
+          263,
+          389
+        ]
+      ],
+      "confidence": 0.9752191603183746,
+      "start_index": 23,
+      "end_index": 24
+    },
+    {
+      "type": "ANSWER",
+      "text": "__(336) 335-7392",
+      "words": [
+        "__(336)",
+        "335-7392"
+      ],
+      "boxes": [
+        [
+          205,
+          375,
+          255,
+          399
+        ],
+        [
+          259,
+          375,
+          311,
+          399
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          273,
+          375,
+          339,
+          399
+        ],
+        [
+          344,
+          375,
+          413,
+          399
+        ]
+      ],
+      "confidence": 0.9205953776836395,
+      "start_index": 25,
+      "end_index": 26
+    },
+    {
+      "type": "QUESTION",
+      "text": "PHONE NUMBER:",
+      "words": [
+        "PHONE",
+        "NUMBER:"
+      ],
+      "boxes": [
+        [
+          385,
+          379,
+          431,
+          390
+        ],
+        [
+          435,
+          379,
+          498,
+          389
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          511,
+          379,
+          572,
+          390
+        ],
+        [
+          578,
+          379,
+          661,
+          389
+        ]
+      ],
+      "confidence": 0.977285772562027,
+      "start_index": 27,
+      "end_index": 28
+    },
+    {
+      "type": "ANSWER",
+      "text": "(336) 335-7363",
+      "words": [
+        "(336)",
+        "335-7363"
+      ],
+      "boxes": [
+        [
+          505,
+          379,
+          534,
+          392
+        ],
+        [
+          538,
+          380,
+          588,
+          392
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          671,
+          379,
+          709,
+          392
+        ],
+        [
+          714,
+          380,
+          781,
+          392
+        ]
+      ],
+      "confidence": 0.9413784146308899,
+      "start_index": 29,
+      "end_index": 30
+    },
+    {
+      "type": "QUESTION",
+      "text": "DATE:",
+      "words": [
+        "DATE:"
+      ],
+      "boxes": [
+        [
+          104,
+          410,
+          145,
+          421
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          139,
+          410,
+          193,
+          421
+        ]
+      ],
+      "confidence": 0.9733180999755859,
+      "start_index": 31,
+      "end_index": 31
+    },
+    {
+      "type": "ANSWER",
+      "text": "1210/98",
+      "words": [
+        "1210/98"
+      ],
+      "boxes": [
+        [
+          186,
+          410,
+          232,
+          423
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          248,
+          410,
+          309,
+          423
+        ]
+      ],
+      "confidence": 0.955267608165741,
+      "start_index": 32,
+      "end_index": 32
+    },
+    {
+      "type": "QUESTION",
+      "text": "NUMBER OF PAGES INCLUDING COVER SHEET:",
+      "words": [
+        "NUMBER",
+        "OF",
+        "PAGES",
+        "INCLUDING",
+        "COVER",
+        "SHEET:"
+      ],
+      "boxes": [
+        [
+          103,
+          443,
+          164,
+          454
+        ],
+        [
+          167,
+          443,
+          186,
+          454
+        ],
+        [
+          189,
+          443,
+          234,
+          454
+        ],
+        [
+          237,
+          443,
+          315,
+          456
+        ],
+        [
+          319,
+          443,
+          366,
+          454
+        ],
+        [
+          370,
+          443,
+          417,
+          454
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          137,
+          443,
+          218,
+          454
+        ],
+        [
+          222,
+          443,
+          248,
+          454
+        ],
+        [
+          251,
+          443,
+          311,
+          454
+        ],
+        [
+          315,
+          443,
+          419,
+          456
+        ],
+        [
+          424,
+          443,
+          486,
+          454
+        ],
+        [
+          492,
+          443,
+          554,
+          454
+        ]
+      ],
+      "confidence": 0.7965035662055016,
+      "start_index": 33,
+      "end_index": 38
+    },
+    {
+      "type": "ANSWER",
+      "text": "3",
+      "words": [
+        "3"
+      ],
+      "boxes": [
+        [
+          464,
+          444,
+          470,
+          456
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          616,
+          444,
+          624,
+          456
+        ]
+      ],
+      "confidence": 0.7940481305122375,
+      "start_index": 39,
+      "end_index": 39
+    },
+    {
+      "type": "QUESTION",
+      "text": "SENDER/PHONE NUMBER:",
+      "words": [
+        "SENDER/PHONE",
+        "NUMBER:"
+      ],
+      "boxes": [
+        [
+          103,
+          475,
+          210,
+          485
+        ],
+        [
+          214,
+          475,
+          277,
+          485
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          137,
+          475,
+          279,
+          485
+        ],
+        [
+          285,
+          475,
+          368,
+          485
+        ]
+      ],
+      "confidence": 0.9645667672157288,
+      "start_index": 40,
+      "end_index": 41
+    },
+    {
+      "type": "ANSWER",
+      "text": "___June Flynn for Erie",
+      "words": [
+        "___June",
+        "Flynn",
+        "for",
+        "Erie"
+      ],
+      "boxes": [
+        [
+          283,
+          465,
+          329,
+          497
+        ],
+        [
+          333,
+          465,
+          361,
+          497
+        ],
+        [
+          368,
+          465,
+          382,
+          497
+        ],
+        [
+          387,
+          465,
+          409,
+          497
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          376,
+          465,
+          437,
+          497
+        ],
+        [
+          442,
+          465,
+          480,
+          497
+        ],
+        [
+          489,
+          465,
+          507,
+          497
+        ],
+        [
+          514,
+          465,
+          543,
+          497
+        ]
+      ],
+      "confidence": 0.9036556929349899,
+      "start_index": 42,
+      "end_index": 45
+    },
+    {
+      "type": "ANSWER",
+      "text": "466.9980",
+      "words": [
+        "466.9980"
+      ],
+      "boxes": [
+        [
+          483,
+          465,
+          537,
+          497
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          641,
+          465,
+          713,
+          497
+        ]
+      ],
+      "confidence": 0.917414128780365,
+      "start_index": 46,
+      "end_index": 46
+    },
+    {
+      "type": "HEADER",
+      "text": "‘SPECIAL INSTRUCTIONS:",
+      "words": [
+        "‘SPECIAL",
+        "INSTRUCTIONS:"
+      ],
+      "boxes": [
+        [
+          103,
+          506,
+          162,
+          517
+        ],
+        [
+          165,
+          506,
+          272,
+          517
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          137,
+          506,
+          216,
+          517
+        ],
+        [
+          220,
+          506,
+          362,
+          517
+        ]
+      ],
+      "confidence": 0.6135012805461884,
+      "start_index": 47,
+      "end_index": 48
+    },
+    {
+      "type": "ANSWER",
+      "text": "ELEASE",
+      "words": [
+        "ELEASE"
+      ],
+      "boxes": [
+        [
+          271,
+          607,
+          326,
+          640
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          360,
+          607,
+          433,
+          640
+        ]
+      ],
+      "confidence": 0.6482318043708801,
+      "start_index": 52,
+      "end_index": 52
+    },
+    {
+      "type": "QUESTION",
+      "text": "AS:",
+      "words": [
+        "AS:"
+      ],
+      "boxes": [
+        [
+          291,
+          629,
+          308,
+          650
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          387,
+          629,
+          409,
+          650
+        ]
+      ],
+      "confidence": 0.669515073299408,
+      "start_index": 55,
+      "end_index": 55
+    },
+    {
+      "type": "ANSWER",
+      "text": "LE",
+      "words": [
+        "LE"
+      ],
+      "boxes": [
+        [
+          425,
+          634,
+          437,
+          644
+        ]
+      ],
+      "normalized_boxes": [
+        [
+          564,
+          634,
+          580,
+          644
+        ]
+      ],
+      "confidence": 0.4564269483089447,
+      "start_index": 56,
+      "end_index": 56
+    }
+  ],
+  "summary": {
+    "total_words": 181,
+    "total_entities": 22,
+    "entity_counts": {
+      "HEADER": 3,
+      "ANSWER": 11,
+      "QUESTION": 8
+    }
+  }
+}

@@ -1,0 +1,9 @@
+transformers datasets seqeval
+torch
+matplotlib                   
+pytesseract pillow opencv-python
+"accelerate>=0.26.0"
+
+protobuf==3.20.3
+
+seaborn
