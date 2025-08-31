@@ -7,7 +7,7 @@ The system learns to classify tokens (words) into categories like **Question, An
 ---
 
 ## 🎯 Objectives
-
+ 
 * Extract structured key-value pairs from scanned documents.
 * Use **LayoutLM (document-aware transformer)** to understand both text and spatial layout.
 * Train, validate, and run inference on custom document datasets (with OCR + bounding boxes).
